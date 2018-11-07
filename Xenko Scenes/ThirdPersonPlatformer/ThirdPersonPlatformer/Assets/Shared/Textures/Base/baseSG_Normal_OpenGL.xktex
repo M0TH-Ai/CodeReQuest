@@ -1,0 +1,7 @@
+!Texture
+Id: d7138d9a-e010-4a1f-9b9a-6f4e48ddb0bc
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/baseSG_Normal_OpenGL.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

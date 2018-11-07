@@ -1,0 +1,6 @@
+!Texture
+Id: 27949c66-c84e-4fd8-80db-7f2b9a790c4a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/TPiece/TPiece_Roughness.png
+Type: !GrayscaleTextureType {}

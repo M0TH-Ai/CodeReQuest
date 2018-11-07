@@ -1,0 +1,6 @@
+!Texture
+Id: 1a13460d-2310-4d66-a1a3-005fd19a1c53
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/ventSG_Metallic.png
+Type: !GrayscaleTextureType {}

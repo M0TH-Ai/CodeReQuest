@@ -1,0 +1,6 @@
+!Texture
+Id: 5068af57-c0b3-4baf-ab93-8507e256a43d
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Metallic.png
+Type: !GrayscaleTextureType {}

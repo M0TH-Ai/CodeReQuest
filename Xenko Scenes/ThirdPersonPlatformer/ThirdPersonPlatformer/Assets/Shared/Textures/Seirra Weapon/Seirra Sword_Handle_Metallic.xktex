@@ -1,0 +1,6 @@
+!Texture
+Id: c8c7105d-7da7-4652-99d8-fb463d7bd9c7
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Handle_Metallic.png
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,6 @@
+!Texture
+Id: 8ab46ffe-901a-4ceb-bacd-e1b3a653bd82
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Hair_Metallic.png
+Type: !GrayscaleTextureType {}

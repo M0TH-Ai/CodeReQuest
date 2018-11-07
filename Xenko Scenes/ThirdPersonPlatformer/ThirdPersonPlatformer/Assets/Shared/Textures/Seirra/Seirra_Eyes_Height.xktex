@@ -1,0 +1,6 @@
+!Texture
+Id: f517848b-2971-4925-ab5b-5647de08c180
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Eyes_Height.png
+Type: !GrayscaleTextureType {}

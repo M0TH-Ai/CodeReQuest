@@ -1,0 +1,6 @@
+!Texture
+Id: 538f1baf-0951-4157-aeaf-903604241c68
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Buckle_Roughness.png
+Type: !GrayscaleTextureType {}

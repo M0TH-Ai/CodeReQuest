@@ -1,0 +1,7 @@
+!Texture
+Id: e9fb886d-e524-41e1-ae55-75a28b2f4a26
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Handle_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

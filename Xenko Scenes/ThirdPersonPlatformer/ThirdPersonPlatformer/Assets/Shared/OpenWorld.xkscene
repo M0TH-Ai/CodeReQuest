@@ -1,0 +1,362 @@
+!SceneAsset
+Id: 1c07e7e8-a7f5-4f93-9497-7d43c811754b
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! bd24771b-6940-4406-b0df-a9038fe47152
+        - ref!! 85c1dc74-403d-43d0-aa70-1c67b9bca75d
+        - ref!! 4a983786-7812-4b89-80a5-717e92ce7e85
+        - ref!! 7810e4a3-e33c-4427-8ce0-50e1d3b6b462
+        - ref!! 26cb96ac-2956-4ed2-8e97-0bfce3a5f203
+    Parts:
+        -   Entity:
+                Id: 26cb96ac-2956-4ed2-8e97-0bfce3a5f203
+                Name: WeaponBase_LP_split
+                Components:
+                    0d96d6468904bcf5eda72428ad713116: !TransformComponent
+                        Id: 62b72272-9094-43ec-8c50-11858ccc0a77
+                        Position: {X: 13.24957, Y: 27.1225052, Z: 5.231058}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9c485f936fa9e9a00b1b7058bae91e80: !UIComponent
+                        Id: 62140bdc-8389-41b8-a38e-7bbde400e4e0
+                        Enabled: false
+                        Page: a9f761cf-29e6-4a13-84d6-5e2c1f2544c3:Page_2
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+
+                        Id: 7f6442b8-6259-439d-a0df-c3bbfb724382
+                        SyrikSword: 123ba9a3-bb53-4ed1-9278-296857eefa51:Models/Weapons/SyrikPrefab
+                        SierraSword: 9b7440ad-8afb-4695-81fa-e6999d6d482c:Models/Weapons/SierraPrefab
+                        Sierra: null
+                        player: null
+                        currentWeapon: null
+                        idleSyrik: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        runningSyrik: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
+                        idleSierra: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        runningSierra: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
+                        switchleft: false
+                        switchright: false
+                    0af57a81d308d7bceafaafe52ef4c1d5: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: 293dced7-cead-4162-b980-2fd8caeeef39
+                        TriggerCondition: StartOnly
+                    e34cc1e6a4a5b8f4c9b04808dda9991b: !StaticColliderComponent
+                        Id: d9f35360-f4e4-450c-81bd-b69c78bb468f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            e46bde694e5ca31fad8448d0abec87bf: !CylinderColliderShapeDesc
+                                Height: 0.1
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4a5ce6e153fd6aad5be7b21ace7b65aa: !StaticColliderComponent
+                        Id: a57c5233-6646-4ced-9f24-41b04491da49
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            a2f484be753d4023ca1b3b38f0024aac: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 3.0, Z: 1.0}
+                                LocalOffset: {X: -3.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    ffdaca2262ef43d53e1b51d2b98bdcb1: !ThirdPersonPlatformer.UIMainScene,ThirdPersonPlatformer.Game
+                        Id: ab7cb763-3be8-4063-8464-23312999ae8b
+                        UI: ref!! 62140bdc-8389-41b8-a38e-7bbde400e4e0
+                        Trigger: ref!! 293dced7-cead-4162-b980-2fd8caeeef39
+                    cd2e20b318c1b652496632cdf7eb4e65: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: bf4507d0-6cae-4d85-92fb-29b583638ffb
+                        TriggerCondition: EndOnly
+        -   Entity:
+                Id: 4a983786-7812-4b89-80a5-717e92ce7e85
+                Name: PlayerCharacter
+                Components:
+                    b296752080481e41b569d385767428ce: !TransformComponent
+                        Id: 40adf355-c27e-4293-bf8c-f4c17cd2a9f6
+                        Position: {X: 0.0, Y: 15.9030371, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1245d3c0d097e44e8295e28dad432562: ref!! d03b44a9-d567-4ce0-b139-91d04beb3862
+                            39d4bdb202782a41869f2a6d53da4edf: ref!! 6340a918-7927-4e39-8bea-aec2a79cbbb5
+                    b978a0332590234b9f3a3537f50e75ae: !CharacterComponent
+                        Id: 80b64745-b559-4677-ba9e-1f7d9c4a1855
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 13.0
+                        Gravity: -40.0
+                        ColliderShapes:
+                            56a5239435c0e54188f913fd5d2f5dee: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    d8f56173b066872d2fb0170dc7988e97: !ThirdPersonPlatformer.Player.PlayerController,ThirdPersonPlatformer.Game
+                        Id: 37059e8f-1681-403b-ad3a-d9d00d9490e2
+                        sword: ref!! a9f605f6-7fb9-453b-9503-4fc2b258ba34
+                        inputSystem: ref!! 407602f7-cee3-4114-897b-dca19e03d320
+                        attacking: false
+                        quickattack: true
+                        runningRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        player: ref!! 4a983786-7812-4b89-80a5-717e92ce7e85
+                        idleRotation: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
+                        MaxRunSpeed: 8.0
+                        Animator: null
+                        AttackDistance: 8.0
+                        AttackCooldown: 1.0
+                        MaxShootDistance: 4.0
+                        ShootImpulse: 5.0
+                        JumpReactionThreshold: 0.2
+                        PunchCollision: ref!! 28b38118-f055-489d-964e-d6b8e9522b6c
+                        AttackEntity: null
+                        AttackEntity1: null
+                        AttackEntity2: null
+                        AttackCooldown1: 0.0
+                    5e608fbb357a68303f4da5aae9ab39b7: !ThirdPersonPlatformer.Player.PlayerInput,ThirdPersonPlatformer.Game
+                        Id: 407602f7-cee3-4114-897b-dca19e03d320
+                        movementsystem: false
+                        moving: false
+                        MouseSensitivity: 100.0
+                        DeadZone: 0.2
+                        Camera: ref!! 54185fb9-ca6b-4c15-bc79-570a042bfe66
+                        ControllerComponent: ref!! 37059e8f-1681-403b-ad3a-d9d00d9490e2
+                        KeysLeft:
+                            188e93f66916cf656ff39c2c364a16ce: A
+                            209be0885cbd15e2824ee34abbf1e993: Left
+                        KeysRight:
+                            b19f9a0fb9749d53d2cf6e353c2dde59: D
+                            da3e9e9055cb7a4648d733f34b8a6afb: Right
+                        KeysUp:
+                            6f9526aa5d381de305cc00fa39927ff8: W
+                            0bf61a77531d87ca4bc6697a5d3a9a73: Up
+                        KeysDown:
+                            d074974d39648acf3dd67ba90125999c: S
+                            47b7f2884469c9d74a4712034dba6f5a: Down
+                        KeysJump:
+                            23fe5ceb28bd9649fa594f451bbef24b: Space
+                        KeysAttack:
+                            a56edbb76139d1b82af5ad2b3aa2c986: H
+                        KeysAttack2:
+                            4c4616473d03d6ab6974179ba4d51b38: J
+                        KeysAttackMode:
+                            e2c1eb5ae7a8b1b5c467c19cf83cc841: Z
+                        SwitchRight: {}
+                        SwitchLeft: {}
+        -   Entity:
+                Id: 7810e4a3-e33c-4427-8ce0-50e1d3b6b462
+                Name: WorldGenerator
+                Components:
+                    1b623ef9a9aad7fa2c3ef7d5b84be059: !TransformComponent
+                        Id: df3a2f65-87a6-48c6-abc2-598aed6e9cb6
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Children: {}
+                    2f1e366b40d2cb313c0675953637d705: !ThirdPersonPlatformer.World.WorldGenerator,ThirdPersonPlatformer.Game
+                        Id: a94b1a86-5c25-4273-9219-eebf2074a787
+                        Player: ref!! 40adf355-c27e-4293-bf8c-f4c17cd2a9f6
+                        VoxelScale: 0.4
+        -   Folder: GlobalLights
+            Entity:
+                Id: 85c1dc74-403d-43d0-aa70-1c67b9bca75d
+                Name: Skybox
+                Components:
+                    6e987687711b70418c85dff5a9bbc2ec: !TransformComponent
+                        Id: 6e237852-0e5e-4964-a104-70aa1481d0fc
+                        Position: {X: 0.0, Y: 27.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    197b9ba9a8d24847a1b8d7261d35f329: !LightComponent
+                        Id: 49c5a368-a1d4-4241-8b32-6d9d0d23a126
+                        Type: !LightSkybox
+                            Skybox: 22670987-0598-46e9-aa11-93050f44ff75:Skybox
+                        Intensity: 1.5
+                    f6397b90285248a39a30d9f6245a9f87: !BackgroundComponent
+                        Id: fd0437b1-3335-4a1c-884a-776deaf1a795
+                        Texture: 37c0d0ab-19ae-4950-8419-697e89f66f81:Skybox Texture
+                        Intensity: 5.0
+        -   Folder: null
+            Entity:
+                Id: a9f605f6-7fb9-453b-9503-4fc2b258ba34
+                Name: Seirra Sword
+                Components:
+                    132d2f52834b80b23b966cad3517c894: !TransformComponent
+                        Id: dc296387-ff08-4eeb-8710-c99c404f3561
+                        Position: {X: -0.395, Y: 0.085, Z: 0.027}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    95b23bb25126e5ee9f9f68f1ab4f8a80: !ModelComponent
+                        Id: fab58de3-4bc1-40d5-8721-7c8190dc1480
+                        Model: 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword
+                        Materials:
+                            ea4ffb9f91e1d68efbd3a59c85ef3bcd~0: 09234db1-439c-4fd2-8913-41c975e4bd69:Models/Weapons/Seirra handle
+                            ba56479873a89d2db7a053c0f8a9808e~1: e9cc32cc-a918-4aad-84bd-6b3862ab4199:Models/Weapons/Seirra Shroud
+                            731b47c458fe83a93c9b5c9fe09908e7~2: b6e14bf0-386a-439b-a095-5a41e1004a4d:Models/Weapons/Seirra Blade
+                    b36392aa577b77c7ec87f074bf0cf5e7: !ModelNodeLinkComponent
+                        Id: df63ed04-6214-459d-b2ef-0f0a75dfcf28
+                        Target: null
+                        NodeName: RightHand
+                    1133caf181a1d9b963b6dc4848b399a7: !RigidbodyComponent
+                        Id: 28b38118-f055-489d-964e-d6b8e9522b6c
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: CustomFilter1, CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: true
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            61a9ddb53c7b9ab7a176fe2213b15856: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.2, Z: 0.2}
+                                LocalOffset: {X: -0.25, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    108f05fe25d18b56c1a644c392bec7fd: !Player.PhysicsTrigger,ThirdPersonPlatformer.Game
+                        Id: 155d5ecf-0a89-4387-aa97-1dfd158899fb
+                    27761a21266ed81af36a79472c151692: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: 6e73a3c7-1030-47a8-a9b6-a18c683badd3
+                        TriggerCondition: StartOnly
+        -   Folder: GlobalLights
+            Entity:
+                Id: bd24771b-6940-4406-b0df-a9038fe47152
+                Name: Directional light
+                Components:
+                    5ab3300ae74fa14a9efcaa1f506407ce: !TransformComponent
+                        Id: 7bdcb3f7-031f-4b46-b572-749441d96528
+                        Position: {X: 1.0, Y: 27.0, Z: 0.0}
+                        Rotation: {X: -0.5540323, Y: 0.212012157, Z: 0.1484525, W: 0.7912401}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    209f95c46d53de41a3dfff661934ae6c: !LightComponent
+                        Id: c3fbcdad-ac71-4737-9018-1ca26ae6ca57
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: XLarge
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters:
+                                    DepthBias: 0.0015
+                        Intensity: 8.0
+        -   Folder: null
+            Entity:
+                Id: c76c7b88-457c-4de2-bcaf-f3ea04345670
+                Name: MannequinModel
+                Components:
+                    1245d3c0d097e44e8295e28dad432562: !TransformComponent
+                        Id: d03b44a9-d567-4ce0-b139-91d04beb3862
+                        Position: {X: 0.0, Y: 0.02286236, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            bd65976e6e1541a577e3e7f8ca2e5c09: ref!! dc296387-ff08-4eeb-8710-c99c404f3561
+                    0fa4902c57c2de428808e383912863ea: !ModelComponent
+                        Id: e18ccfa8-4dac-4864-bd9c-a778ec40cdc0
+                        Model: 47b065ba-1bc4-4b73-a8d4-60c89d91177e:Models/Seirra/Seirra_Player
+                        Materials: {}
+                    304d35d4da1f0864b3e11a054ca250f8: !ThirdPersonPlatformer.Player.AnimationController,ThirdPersonPlatformer.Game
+                        Id: a6185314-3168-4954-9c5f-02bd23f3a48f
+                        attackIdleOn: true
+                        input: ref!! 407602f7-cee3-4114-897b-dca19e03d320
+                        currentTime: 0.0
+                        state: Airborne
+                        AnimationComponent: ref!! e065aef4-b87c-4ef0-af6b-64d0773b09b7
+                        AnimationIdle: 96d07271-1561-4f5f-be18-2432886f397b:Animations/Seirra/Idle
+                        AnimationWalk: 5a7aef85-9e4e-49d6-9cfc-78e934f5f894:Animations/Seirra/Walking
+                        AnimationAWalk: c6e7c086-284f-4457-b4fa-a7b92bf97370:Animations/Seirra/2handRun
+                        AnimationRun: 4d28572c-2f8a-41d8-8e43-1ef15b9d0f19:Animations/Seirra/Running
+                        AnimationARun: c6e7c086-284f-4457-b4fa-a7b92bf97370:Animations/Seirra/2handRun
+                        AnimationJumpStart: 75cab292-3182-4bcc-ae28-f9a06200db4a:Animations/Seirra/Jumping
+                        AnimationJumpMid: 22a8fccc-01c2-498e-bc11-495d6148afcb:Animations/Seirra/Falling Idle
+                        AnimationJumpEnd: ff2520eb-5d96-435d-9be7-b718ffdebae2:Animations/Seirra/Falling To Landing
+                        WalkThreshold: 0.43
+                        AWalkThreshold: 0.25
+                        AnimationPunch: d1193f50-2065-4a7a-88ef-5fa4c66b0fa0:Animations/Seirra/Two Hand Sword Combo 2
+                        AnimationPunch2: a7ff76fc-9951-4606-8692-073f5a0bf543:Animations/Seirra/Flip Kick
+                        AnimationQuickAttack: bcec4659-4536-4978-9ca4-e90554530b35:Animations/Seirra/Standing Melee Attack Horizontal
+                        AnimationAIdle: 021f9f93-e011-46c1-b26b-a0c600883fd3:Animations/Seirra/Weapon Idle
+                        TimeFactor: 1.0
+                    5847b2c0adfcf347a100f94d96c5d325: !AnimationComponent
+                        Id: e065aef4-b87c-4ef0-af6b-64d0773b09b7
+                        Animations: {}
+        -   Folder: null
+            Entity:
+                Id: e7431078-5701-433c-82ef-2a6360c7009b
+                Name: CameraTarget
+                Components:
+                    39d4bdb202782a41869f2a6d53da4edf: !TransformComponent
+                        Id: 6340a918-7927-4e39-8bea-aec2a79cbbb5
+                        Position: {X: 0.0, Y: 1.65, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -8.121798E-09, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a116d811cab5bf4da5211050e1d34e10: ref!! c0f701c6-a761-445d-bc61-61e5519554fc
+        -   Folder: null
+            Entity:
+                Id: ebbd542d-a8ae-4c83-a8fc-eb1d3ab33cf2
+                Name: Camera
+                Components:
+                    a116d811cab5bf4da5211050e1d34e10: !TransformComponent
+                        Id: c0f701c6-a761-445d-bc61-61e5519554fc
+                        Position: {X: 0.848, Y: -0.703, Z: 3.53335261}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1fb7d1656248fc4eb7c13c9d933979c7: !CameraComponent
+                        Id: 54185fb9-ca6b-4c15-bc79-570a042bfe66
+                        Name: null
+                        Projection: Perspective
+                        VerticalFieldOfView: 30.0
+                        NearClipPlane: 1.5
+                        FarClipPlane: 100.0
+                        AspectRatio: 2.5
+                        Slot: 9aeac611-d1f6-46da-a235-e20cc154e170
+                    5462d043a5cf0f691fd39596b23aefa4: !ThirdPersonPlatformer.Camera.ThirdPersonCamera,ThirdPersonPlatformer.Game
+                        Id: e72285d6-a130-4f0b-96fd-dcda72eeec64
+                        DefaultDistance: 5.0
+                        MinimumDistance: 3.0
+                        ConeRadius: 0.0
+                        InvertX: false
+                        MinVerticalAngle: 0.0
+                        MaxVerticalAngle: 70.0
+                        InvertY: false
+                        RotationSpeed: 360.0
+                        VerticalSpeed: 45.0

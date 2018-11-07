@@ -1,0 +1,97 @@
+!UIPageAsset
+Id: a9f761cf-29e6-4a13-84d6-5e2c1f2544c3
+SerializedVersion: {Xenko: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 8f20394b-eb03-41b9-9c2f-bf1f533bea3e
+    Parts:
+        -   UIElement: !TextBlock
+                Id: 5cee67e2-d6d2-4ad7-b1e9-b12a197640cd
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                Text: 
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 8f20394b-eb03-41b9-9c2f-bf1f533bea3e
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                Children:
+                    f81641ceb661383c311f7d1f27fb69b2: !Button ref!! 9db1569f-90a5-4b42-82ed-f8a2e52f48c2
+                    9281a9b7afd2454ae53521932e1bad14: !Button ref!! 93b905ae-8e39-4ac6-b663-4ccd3d32916d
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Button
+                Id: 93b905ae-8e39-4ac6-b663-4ccd3d32916d
+                DependencyProperties:
+                    49b9ff5af5cfb0f63eaa5a9897acda51~Panel.ZIndexPropertyKey: 0
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 3
+                CanBeHitByUser: true
+                Width: 152.0
+                Height: 124.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Top: 12.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: SyrikButton
+                Padding: {Left: 10.0, Top: 5.0, Right: 10.0, Bottom: 7.0}
+                Content: !TextBlock ref!! e64b7441-4726-473f-abbb-4d203e5e8c73
+                PressedImage: !SpriteFromSheet
+                    Sheet: d1241514-ad4e-479b-9e32-6360b430439b:SpriteSheet
+                    CurrentFrame: 3
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: d1241514-ad4e-479b-9e32-6360b430439b:SpriteSheet
+                    CurrentFrame: 3
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: d1241514-ad4e-479b-9e32-6360b430439b:SpriteSheet
+                    CurrentFrame: 3
+        -   UIElement: !Button
+                Id: 9db1569f-90a5-4b42-82ed-f8a2e52f48c2
+                DependencyProperties:
+                    2ee0c4f64446a649f95b364323d147d1~Panel.ZIndexPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                CanBeHitByUser: true
+                Width: 152.0
+                Height: 161.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {Left: 16.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: SierraButton
+                Padding: {Left: 10.0, Top: 5.0, Right: 10.0, Bottom: 7.0}
+                Content: !TextBlock ref!! 5cee67e2-d6d2-4ad7-b1e9-b12a197640cd
+                PressedImage: !SpriteFromSheet
+                    Sheet: d1241514-ad4e-479b-9e32-6360b430439b:SpriteSheet
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: d1241514-ad4e-479b-9e32-6360b430439b:SpriteSheet
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: d1241514-ad4e-479b-9e32-6360b430439b:SpriteSheet
+        -   UIElement: !TextBlock
+                Id: e64b7441-4726-473f-abbb-4d203e5e8c73
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: 
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}

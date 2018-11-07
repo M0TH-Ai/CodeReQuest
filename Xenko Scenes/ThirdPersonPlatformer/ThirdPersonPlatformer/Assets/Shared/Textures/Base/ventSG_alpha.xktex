@@ -1,0 +1,6 @@
+!Texture
+Id: a730a4ca-4c10-4988-b10a-eb97662b6315
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/ventSG_alpha.png
+Type: !GrayscaleTextureType {}

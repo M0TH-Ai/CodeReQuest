@@ -1,0 +1,7 @@
+!Texture
+Id: f7c2b55a-d30f-418f-a4e7-b1d14d8907c8
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Pants_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

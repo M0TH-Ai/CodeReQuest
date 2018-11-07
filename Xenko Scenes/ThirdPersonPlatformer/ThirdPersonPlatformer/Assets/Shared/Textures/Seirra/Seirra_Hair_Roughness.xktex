@@ -1,0 +1,6 @@
+!Texture
+Id: 2db2cbe8-03f2-4b8d-839f-6baaa55a1126
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Hair_Roughness.png
+Type: !GrayscaleTextureType {}

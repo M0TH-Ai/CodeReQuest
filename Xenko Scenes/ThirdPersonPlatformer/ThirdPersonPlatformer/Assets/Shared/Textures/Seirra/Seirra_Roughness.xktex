@@ -1,0 +1,6 @@
+!Texture
+Id: cb694682-81f6-4ea7-a08d-a62a4c69fb01
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Roughness.png
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,71 @@
+!MaterialAsset
+Id: 9cc79076-831f-491c-b9ba-ce2ea8c41e90
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Attributes:
+    Surface: !MaterialNormalMapFeature
+        NormalMap: !ComputeTextureColor
+            Texture: c6afc2cb-6aa3-495c-a89a-58b23b5e046c:Textures/Seirra/Seirra_Hair_Normal
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: 2db2cbe8-03f2-4b8d-839f-6baaa55a1126:Textures/Seirra/Seirra_Hair_Roughness
+            FallbackValue:
+                Value: 1.0
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Invert: true
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: 4065fd30-ce3d-4e78-8275-c0d0eb3fd723:Textures/Seirra/Seirra_Hair_BaseColor
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeTextureScalar
+            Texture: 8ab46ffe-901a-4ceb-bacd-e1b3a653bd82:Textures/Seirra/Seirra_Hair_Metallic
+            FallbackValue:
+                Value: 1.0
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+    SpecularModel: !MaterialSpecularCelShadingModelFeature
+        RampFunction: !MaterialCelShadingLightDefault
+            IsBlackAndWhite: false
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionBlinnPhong {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
+    Occlusion: !MaterialOcclusionMapFeature
+        AmbientOcclusionMap: !ComputeTextureScalar
+            Texture: 46b2a7ef-02fc-4c35-b0c6-ee87e07f4585:Textures/Seirra/Seirra_Hair_Height
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DirectLightingFactor: !ComputeFloat
+            Value: 0.0
+        CavityMap: null
+        DiffuseCavity: !ComputeFloat
+            Value: 1.0
+        SpecularCavity: !ComputeFloat
+            Value: 1.0
+    Emissive: !MaterialEmissiveMapFeature
+        EmissiveMap: !ComputeColor
+            Value: {R: 0.197728157, G: 0.687750041, B: 0.650998354, A: 1.0}
+        Intensity: !ComputeFloat
+            Value: 0.02
+        UseAlpha: true
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

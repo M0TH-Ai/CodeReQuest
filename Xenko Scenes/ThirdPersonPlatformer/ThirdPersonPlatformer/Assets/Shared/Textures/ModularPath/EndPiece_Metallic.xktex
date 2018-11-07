@@ -1,0 +1,6 @@
+!Texture
+Id: ebaec2eb-dc5d-4f10-ac5d-09e8b66b2e77
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/EndPiece/EndPiece_Metallic.png
+Type: !GrayscaleTextureType {}

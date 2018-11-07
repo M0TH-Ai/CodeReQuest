@@ -1,0 +1,6 @@
+!Texture
+Id: 0273a030-3f98-4859-8008-a79d689adac5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/StraightPiece/StraightPiece_Roughness.png
+Type: !GrayscaleTextureType {}

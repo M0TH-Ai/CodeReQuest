@@ -1,0 +1,7 @@
+!Texture
+Id: 1f6f1548-6797-4137-bf6c-09021ee9eaca
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/Grates/StraightGrate_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

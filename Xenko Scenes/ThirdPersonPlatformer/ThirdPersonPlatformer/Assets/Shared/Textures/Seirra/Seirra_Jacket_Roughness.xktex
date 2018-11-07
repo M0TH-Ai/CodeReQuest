@@ -1,0 +1,6 @@
+!Texture
+Id: ef084dba-08a8-45a8-a3b9-1217c8debdf0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Jacket_Roughness.png
+Type: !GrayscaleTextureType {}

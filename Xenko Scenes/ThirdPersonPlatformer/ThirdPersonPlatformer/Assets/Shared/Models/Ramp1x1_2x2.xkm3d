@@ -1,0 +1,14 @@
+!Model
+Id: ee0859f5-bd60-47df-8d08-86cb497054ff
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Models/Ramp1x1_2x2.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2a4c62502d84612cd0bc56d6d0bc56d6:
+        Name: GridMT
+        MaterialInstance:
+            Material: null
+~SourceHashes:
+    e41b49df565957599ba986e5be9addeb~../../../Resources/Models/Ramp1x1_2x2.fbx: d011f175efbb8c308f3aa6cd5785a53c

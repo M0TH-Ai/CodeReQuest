@@ -1,0 +1,21 @@
+!MaterialAsset
+Id: 0179c174-b28d-4a05-a3ff-c989d0af46b4
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeColor
+            Value: {R: 1.0, G: 0.3, B: 0.0, A: 1.0}
+    DiffuseModel: !MaterialDiffuseCelShadingModelFeature
+        FakeNDotL: 3.0
+        RampFunction: !MaterialCelShadingLightDefault
+            IsBlackAndWhite: false
+    Emissive: !MaterialEmissiveMapFeature
+        EmissiveMap: !ComputeColor
+            Value: {R: 0.980392158, G: 0.330882341, B: 0.0, A: 1.0}
+        Intensity: !ComputeFloat
+            Value: 4.0
+        UseAlpha: true
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

@@ -1,0 +1,6 @@
+!Texture
+Id: fd799f6d-6224-4549-a256-06e1e741b849
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/LPiece/LPiece_Roughness.png
+Type: !GrayscaleTextureType {}

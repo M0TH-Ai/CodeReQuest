@@ -1,0 +1,68 @@
+!MaterialAsset
+Id: 2b525172-92dd-4e83-9bba-b0dbf3bb4eec
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Attributes:
+    Surface: !MaterialNormalMapFeature
+        NormalMap: !ComputeTextureColor
+            Texture: f212d8b7-b360-422d-a2f2-cb9a75e56177:Textures/Seirra/Seirra_WaistBelt_Normal
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: fa873eb7-6b86-4d84-b373-9cfbeb34a87e:Textures/Seirra/Seirra_WaistBelt_Roughness
+            FallbackValue:
+                Value: 1.0
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Invert: true
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: c4bfe4ab-b3cd-44ed-a634-667911bfa9e0:Textures/Seirra/Seirra_WaistBelt_BaseColor
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseCelShadingModelFeature
+        FakeNDotL: 0.0
+        RampFunction: !MaterialCelShadingLightDefault
+            IsBlackAndWhite: false
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeTextureScalar
+            Texture: 04a0f470-4f4a-4a75-ad56-e84bda0397ba:Textures/Seirra/Seirra_WaistBelt_Metallic
+            FallbackValue:
+                Value: 1.0
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+    SpecularModel: !MaterialSpecularThinGlassModelFeature
+        RefractiveIndex: 1.083
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentThinGlass {}
+    Occlusion: !MaterialOcclusionMapFeature
+        AmbientOcclusionMap: !ComputeTextureScalar
+            Texture: b6a3afc7-e06e-444d-b607-f67c4578aa8b:Textures/Seirra/Seirra_WaistBelt_Height
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DirectLightingFactor: !ComputeFloat
+            Value: 1.0
+        CavityMap: null
+        DiffuseCavity: !ComputeFloat
+            Value: 1.0
+        SpecularCavity: !ComputeFloat
+            Value: 1.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+    CullMode: None
+Layers: {}

@@ -1,0 +1,6 @@
+!Texture
+Id: 138106df-6022-4949-89e9-3460a0c7f52a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/Grates/CrossGrate_Roughness.png
+Type: !GrayscaleTextureType {}

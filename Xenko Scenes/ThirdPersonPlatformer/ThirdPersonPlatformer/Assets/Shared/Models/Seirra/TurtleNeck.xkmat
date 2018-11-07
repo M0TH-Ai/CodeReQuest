@@ -1,0 +1,66 @@
+!MaterialAsset
+Id: e0c58b6a-07bc-48dc-b73b-119519bf7227
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Attributes:
+    Surface: !MaterialNormalMapFeature
+        NormalMap: !ComputeTextureColor
+            Texture: b7ecf96d-d61a-408a-a91c-b9af446792bb:Textures/Seirra/Seirra_TurtleNeck_Normal
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+        IsXYNormal: true
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: dc227da9-4d63-4caa-a203-90f7ecb8ecf8:Textures/Seirra/Seirra_TurtleNeck_Roughness
+            FallbackValue:
+                Value: 1.0
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Invert: true
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: f08f8109-8d34-488f-9ae0-c39aba78239d:Textures/Seirra/Seirra_TurtleNeck_BaseColor
+            FallbackValue:
+                PremultiplyAlpha: false
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeTextureScalar
+            Texture: c0c7b031-7ffa-4dcc-a5ed-d41fbbb5cfa0:Textures/Seirra/Seirra_TurtleNeck_Metallic
+            FallbackValue:
+                Value: 1.0
+            Filtering: ComparisonLinear
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilityImplicit {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionBlinnPhong {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
+    Occlusion: !MaterialOcclusionMapFeature
+        AmbientOcclusionMap: !ComputeTextureScalar
+            Texture: b1fc7c36-914b-4dab-b390-ada551fbf5c8:Textures/Seirra/Seirra_TurtleNeck_Height
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DirectLightingFactor: !ComputeFloat
+            Value: 1.0
+        CavityMap: null
+        DiffuseCavity: !ComputeFloat
+            Value: 1.0
+        SpecularCavity: !ComputeFloat
+            Value: 1.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+    CullMode: None
+Layers: {}

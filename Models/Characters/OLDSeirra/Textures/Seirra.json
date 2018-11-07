@@ -1,0 +1,46 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "AmbientL": 0.25,
+                "Common Parameters": {
+                    "alpha_threshold": 0.33000001311302185,
+                    "ao_intensity": 0.75,
+                    "height_force": 1
+                },
+                "LightStr": 1,
+                "emissive_intensity": 5,
+                "fresnel_power": 2,
+                "fresnel_str": 0.20000000298023224
+            },
+            "shader": "non-pbr-spec-gloss",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "1001": {
+            "shader": "Main shader"
+        },
+        "10011": {
+            "shader": "Main shader"
+        },
+        "10012": {
+            "shader": "Main shader"
+        },
+        "10013": {
+            "shader": "Main shader"
+        },
+        "10014": {
+            "shader": "Main shader"
+        },
+        "10015": {
+            "shader": "Main shader"
+        },
+        "10016": {
+            "shader": "Main shader"
+        }
+    }
+}

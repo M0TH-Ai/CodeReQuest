@@ -1,0 +1,7 @@
+!Texture
+Id: c72302a6-f15a-4c3d-ab99-532bd308df59
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/TPiece/TPiece_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

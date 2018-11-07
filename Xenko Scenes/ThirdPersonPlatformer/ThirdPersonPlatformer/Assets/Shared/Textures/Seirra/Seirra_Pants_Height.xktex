@@ -1,0 +1,6 @@
+!Texture
+Id: 30def2a8-4b54-46b6-bf04-516e1e475f32
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Pants_Height.png
+Type: !GrayscaleTextureType {}

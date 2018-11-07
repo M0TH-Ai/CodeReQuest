@@ -1,0 +1,8 @@
+!Texture
+Id: 2145a6ec-e89d-44d9-bbbc-d0460ef0b610
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/LPiece/LPiece_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType
+    InvertY: false

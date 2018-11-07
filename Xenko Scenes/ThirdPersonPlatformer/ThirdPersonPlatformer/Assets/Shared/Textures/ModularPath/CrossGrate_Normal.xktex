@@ -1,0 +1,8 @@
+!Texture
+Id: c587e6d9-00aa-4fa8-9025-8b82b2181508
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/Grates/CrossGrate_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType
+    InvertY: false

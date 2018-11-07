@@ -1,0 +1,66 @@
+!Model
+Id: 47b065ba-1bc4-4b73-a8d4-60c89d91177e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Seirra.fbx
+Skeleton: a801b332-6484-45be-a0e7-ae4c1ab52d4b:Models/Seirra/Seirra Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    21626b32a6c39fec322bdb8667851f73:
+        Name: Buckle2
+        MaterialInstance:
+            Material: 88c03601-839c-4bb4-88a3-146e2f40dcd9:Models/Seirra/Buckle2
+    412bc35e451c2f391490b0a17add5de0:
+        Name: Eyes
+        MaterialInstance:
+            Material: df95ff7e-236e-4af4-9494-f96338d98af3:Models/Seirra/Eyes
+    54b18725233905f85604ea8e534c68d5:
+        Name: Bra
+        MaterialInstance:
+            Material: b3208082-3aee-4d25-9f1e-44b129b287fe:Models/Seirra/Bra
+    6dff5dc1c48f45baf2982a396094ddba:
+        Name: Pants
+        MaterialInstance:
+            Material: e77fb35f-8cec-4f96-89ef-4b2b41330c90:Models/Seirra/Pants
+    3d84c07527c79739a7afe0508d5e7886:
+        Name: Jacket
+        MaterialInstance:
+            Material: 022505b8-0acc-4ecb-be7f-b8232fd283ee:Models/Seirra/Jacket
+    1cff0b6bbea9229ed0618074b16570d2:
+        Name: Buckle
+        MaterialInstance:
+            Material: cad9a740-743b-4f96-86d3-9aad9ea51d03:Models/Seirra/Buckle
+    4e6ae38108049760ea8ecfda8dea27e8:
+        Name: Belt2
+        MaterialInstance:
+            Material: 30ad1d09-8d73-48a9-b4ac-6acf76e02e4d:Models/Seirra/Belt2
+    3e7da3e8ec63ed0daa31b35de97c4a37:
+        Name: Belt3
+        MaterialInstance:
+            Material: f4168199-b4d9-4e1b-9760-261cccdee637:Models/Seirra/Belt3
+    d45343e8aecac73538822ce46b77e222:
+        Name: Boots
+        MaterialInstance:
+            Material: 49dbd9a9-8d26-4856-8613-6ba03c40cb8e:Models/Seirra/Boots
+    3a8c0571e6ca2cfb8ceaa758b5d7863f:
+        Name: Hair
+        MaterialInstance:
+            Material: 9cc79076-831f-491c-b9ba-ce2ea8c41e90:Models/Seirra/Hair
+    56699e9132c09db090178fdb17902afa:
+        Name: TurtleNeck
+        MaterialInstance:
+            Material: e0c58b6a-07bc-48dc-b73b-119519bf7227:Models/Seirra/TurtleNeck
+    e826144a1f39a19d021638d6150d69df:
+        Name: Seirra
+        MaterialInstance:
+            Material: 3df867bf-6fa2-454c-b84d-09ef6350dc4c:Models/Seirra/Seirra
+    6ce92a6bc3e2969bd3a8a036bfee76d3:
+        Name: WaistBelt
+        MaterialInstance:
+            Material: 2b525172-92dd-4e83-9bba-b0dbf3bb4eec:Models/Seirra/WaistBelt
+    9030fbf6c1359f20950a85f72a359147:
+        Name: Belt
+        MaterialInstance:
+            Material: 559476ce-b630-48d6-8616-5231d7a3ce91:Models/Seirra/Belt
+~SourceHashes:
+    3babdd1d4d151b9ff3e2e7066a83f70c~../../../../../../../Models/Characters/Seirra/Seirra.fbx: 42eb6d19cf6ee6f854bee278ec8f47f7

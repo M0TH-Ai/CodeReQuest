@@ -1,0 +1,6 @@
+!Texture
+Id: a3c0c2a9-7887-43c9-af51-1f090b505f04
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Buckle2_Metallic.png
+Type: !GrayscaleTextureType {}

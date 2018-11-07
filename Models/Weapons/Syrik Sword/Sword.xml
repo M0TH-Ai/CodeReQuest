@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+
+	Automatically converted from Wavefront OBJ
+
+-->
+
+<scene version="0.5.0">
+	<integrator id="integrator" type="direct"/>
+
+	<bsdf id="Material3_material" type="diffuse">
+		<rgb name="reflectance" value="0.251 0.251 0.251"/>
+	</bsdf>
+
+	<bsdf id="Material1_material" type="diffuse">
+		<rgb name="reflectance" value="0.8353 0.8353 0.8353"/>
+	</bsdf>
+
+	<shape id="Sword_mesh" type="serialized">
+		<string name="filename" value="Sword.serialized"/>
+		<integer name="shapeIndex" value="0"/>
+		<ref name="bsdf" id="Material3_material"/>
+	</shape>
+
+	<shape id="Handle_mesh" type="serialized">
+		<string name="filename" value="Sword.serialized"/>
+		<integer name="shapeIndex" value="1"/>
+		<bsdf type="diffuse"/>
+	</shape>
+
+</scene>

@@ -1,0 +1,7 @@
+!Texture
+Id: 33907831-0e92-4df4-9833-a7b2c735882a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Bra_Metallic.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

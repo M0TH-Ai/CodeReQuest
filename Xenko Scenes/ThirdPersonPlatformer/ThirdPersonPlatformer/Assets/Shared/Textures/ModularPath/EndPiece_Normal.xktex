@@ -1,0 +1,8 @@
+!Texture
+Id: ed92c3e2-262f-4c9a-89ae-b5235ebb16d5
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/EndPiece/EndPiece_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType
+    InvertY: false

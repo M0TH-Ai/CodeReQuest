@@ -1,0 +1,6 @@
+!Texture
+Id: c84e2903-10ba-4cab-9c97-136f77eb00ea
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Belt2_Roughness.png
+Type: !GrayscaleTextureType {}

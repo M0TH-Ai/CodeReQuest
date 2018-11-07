@@ -1,0 +1,19 @@
+!Model
+Id: c59dc253-1230-42d9-8b36-1400d389c360
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/CrossPiece.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    65cb63171c22ef8dc91218ebc8635147:
+        Name: CrossPieceMat
+        MaterialInstance:
+            Material: 53a2ff66-7940-4fe4-93a3-d013ca44da0a:Models/ModularPath/CrossPieceMat
+    ef3c1cb5f4918194e38aa20dd789269d:
+        Name: CrossGrateMat
+        MaterialInstance:
+            Material: 016ffe20-fc39-4070-b987-6023989445ea:Models/ModularPath/CrossGrateMat
+Modifiers: {}
+~SourceHashes:
+    ebbfa90ae73658047da88da14bf3536b~../../../../../../../Models/Props/ModularPath/CrossPiece.fbx: 8bf7300713e081b92120366288ccbea2

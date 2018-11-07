@@ -1,0 +1,19 @@
+!Animation
+Id: bcec4659-4536-4978-9ca4-e90554530b35
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Animation/Two Hand Sword Combo.fbx
+ClipDuration:
+    Enabled: true
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:00:01.1330000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: PlayOnce
+Type: !StandardAnimationAssetType {}
+Skeleton: a801b332-6484-45be-a0e7-ae4c1ab52d4b:Models/Seirra/Seirra Skeleton
+RootMotion: false
+PreviewModel: 47b065ba-1bc4-4b73-a8d4-60c89d91177e:Models/Seirra/Seirra_Player
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:01.1330000
+~SourceHashes:
+    dbe1c66c4095dc38f20bac4cbf72df07~../../../../../../../Models/Characters/Seirra/Animation/Two Hand Sword Combo.fbx: 0176b66038ae15bdaed40121b134b5ef

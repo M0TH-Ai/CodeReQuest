@@ -1,0 +1,6 @@
+!Texture
+Id: fa873eb7-6b86-4d84-b373-9cfbeb34a87e
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_WaistBelt_Roughness.png
+Type: !GrayscaleTextureType {}

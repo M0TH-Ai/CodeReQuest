@@ -1,0 +1,6 @@
+!Texture
+Id: a906d573-11b5-4c13-8987-8f9d4d06fe0f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/railingSG_Roughness.png
+Type: !GrayscaleTextureType {}

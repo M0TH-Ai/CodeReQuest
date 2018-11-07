@@ -1,0 +1,6 @@
+!Texture
+Id: b4f9059e-0859-455d-88da-7a5033ee0b8f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/railingSG_Mixed_AO.png
+Type: !GrayscaleTextureType {}

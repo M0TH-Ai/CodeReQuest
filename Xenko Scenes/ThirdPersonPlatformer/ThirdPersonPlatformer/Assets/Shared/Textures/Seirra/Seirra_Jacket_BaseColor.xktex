@@ -1,0 +1,7 @@
+!Texture
+Id: 4943ea0c-0b7c-4796-82e1-f74914ded5f9
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Jacket_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

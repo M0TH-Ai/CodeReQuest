@@ -1,0 +1,6 @@
+!Texture
+Id: 41579e33-37f5-41b5-aa7b-0f6d9222c9ce
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/Grates/CrossGrate_Alpha.png
+Type: !GrayscaleTextureType {}

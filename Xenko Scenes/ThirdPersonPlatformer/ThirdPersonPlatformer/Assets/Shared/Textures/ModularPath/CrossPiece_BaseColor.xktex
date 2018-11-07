@@ -1,0 +1,7 @@
+!Texture
+Id: 0d9b51b0-2d36-4afb-85dc-278ca9e7e3f7
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/ModularPath/CrossPiece/CrossPiece_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

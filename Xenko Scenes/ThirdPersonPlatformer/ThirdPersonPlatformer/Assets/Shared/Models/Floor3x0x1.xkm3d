@@ -1,0 +1,14 @@
+!Model
+Id: 8a122c39-aec1-4e4f-b438-d52da44c1c42
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Models/Floor3x0x1.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    2a4c62502d84612cd0bc56d6d0bc56d6:
+        Name: GridMT
+        MaterialInstance:
+            Material: null
+~SourceHashes:
+    96455b6b5e805a8502fd577702c1f1e2~../../../Resources/Models/Floor3x0x1.fbx: ad81e9e3a42f09225e49d42dd6c64519

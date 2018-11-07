@@ -1,0 +1,6 @@
+!Texture
+Id: 7a474085-9cf8-4ec8-aeba-d2adfaf4700f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Buckle2_Height.png
+Type: !GrayscaleTextureType {}

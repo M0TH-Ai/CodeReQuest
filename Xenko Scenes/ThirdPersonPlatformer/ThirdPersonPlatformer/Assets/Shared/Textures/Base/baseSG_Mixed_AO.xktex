@@ -1,0 +1,6 @@
+!Texture
+Id: 3eb5b2e5-6c1f-4fa4-bd00-8ad93778fda8
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/baseSG_Mixed_AO.png
+Type: !GrayscaleTextureType {}

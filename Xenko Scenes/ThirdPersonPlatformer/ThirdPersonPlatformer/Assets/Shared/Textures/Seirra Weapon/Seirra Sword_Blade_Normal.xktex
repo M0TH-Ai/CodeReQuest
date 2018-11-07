@@ -1,0 +1,7 @@
+!Texture
+Id: 5fd44301-77f2-4ace-8bb1-db1fedaa0e6a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Blade_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType {}
