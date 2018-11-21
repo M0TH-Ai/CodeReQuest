@@ -19,7 +19,6 @@ namespace ThirdPersonPlatformer.Player
         public NPC()
         {
             animationStates = new Queue<AnimationState>();
-            animationComponent.Entity.Get<AnimationComponent>();
         }
 
         public bool IsPlaying { get; set; }
