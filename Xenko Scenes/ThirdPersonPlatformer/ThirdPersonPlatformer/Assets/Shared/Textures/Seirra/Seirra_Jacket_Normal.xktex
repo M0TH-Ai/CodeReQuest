@@ -1,7 +1,0 @@
-!Texture
-Id: 28974ccf-05a1-4810-b54d-b55f817ff899
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Jacket_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

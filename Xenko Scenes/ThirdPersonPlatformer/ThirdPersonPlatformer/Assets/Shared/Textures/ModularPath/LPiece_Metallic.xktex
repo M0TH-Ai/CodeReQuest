@@ -1,6 +1,0 @@
-!Texture
-Id: 9e93b0a3-3bb7-4274-83ca-be95ddf52964
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/LPiece/LPiece_Metallic.png
-Type: !GrayscaleTextureType {}

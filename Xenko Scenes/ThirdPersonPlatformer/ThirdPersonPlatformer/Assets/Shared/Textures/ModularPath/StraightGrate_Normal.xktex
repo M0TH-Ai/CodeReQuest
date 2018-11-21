@@ -1,8 +1,0 @@
-!Texture
-Id: d416ce07-50b9-4cd6-b959-9a625059a777
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/Grates/StraightGrate_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType
-    InvertY: false

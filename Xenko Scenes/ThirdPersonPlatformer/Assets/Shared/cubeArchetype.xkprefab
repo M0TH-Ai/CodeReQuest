@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: ac2ee6e4-d705-42bc-82ff-0c412ac5304b
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 4999e57d-e3d4-49ed-9c62-79f4bc8979ab
+    Parts:
+        -   Entity:
+                Id: 4999e57d-e3d4-49ed-9c62-79f4bc8979ab
+                Name: cubeArchetype
+                Components:
+                    3067792d26f62f3b52505fb2dc4c27ae: !TransformComponent
+                        Id: 8c2b76c0-e808-4c8e-bb1a-ea74b58e19cc
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1b0f44574bc47069a8c86caf19b0bdd2: !ModelComponent
+                        Id: bacb0db4-9e4f-461a-b15a-28f3213c6046
+                        Model: 691bfc01-34bc-4ddd-a89f-5b7f5e592517:Models/Environment/cubeArchetype
+                        IsShadowCaster: false
+                        Materials: {}

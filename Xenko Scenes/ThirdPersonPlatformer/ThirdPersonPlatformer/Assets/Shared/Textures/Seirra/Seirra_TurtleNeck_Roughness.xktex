@@ -1,6 +1,0 @@
-!Texture
-Id: dc227da9-4d63-4caa-a203-90f7ecb8ecf8
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_TurtleNeck_Roughness.png
-Type: !GrayscaleTextureType {}

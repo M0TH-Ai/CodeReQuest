@@ -1,6 +1,0 @@
-!Texture
-Id: a2ae90b4-9f7e-410f-b039-8c543da532f8
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Jacket_Metallic.png
-Type: !GrayscaleTextureType {}

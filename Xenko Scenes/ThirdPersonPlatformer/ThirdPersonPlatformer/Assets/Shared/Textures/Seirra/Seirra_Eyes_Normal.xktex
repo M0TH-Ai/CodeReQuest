@@ -1,7 +1,0 @@
-!Texture
-Id: cd90e019-3ad8-4dae-a974-4efb4e2ed3b4
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Eyes_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

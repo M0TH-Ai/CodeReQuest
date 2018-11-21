@@ -1,0 +1,23 @@
+!Model
+Id: 0fb0815a-e476-4a3e-8a0a-ee43ab767bc8
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Props/Upgrade/Upgrade_LP_split.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    99fff27b43e0460e6542afd35761114a:
+        Name: WeaponBaseRailingMat
+        MaterialInstance:
+            Material: 2d78c61f-b1c4-4c9e-9cc1-4a1c2b18effd:Models/ModularPath/WeaponBaseRailingMat
+    950e29eac2c4a911959f31dd59eb4c38:
+        Name: WeaponBaseBaseMat
+        MaterialInstance:
+            Material: 0e0b8a3f-f5a6-4e6a-bdd2-d0def76ca788:Models/ModularPath/WeaponBaseBaseMat
+    ed56c8be85837466ceab778e154e5c05:
+        Name: WeaponBaseVentMat
+        MaterialInstance:
+            Material: 8d68716f-aec3-4541-ace5-6fa6c0baee1c:Models/ModularPath/WeaponBaseVentMat
+Modifiers: {}
+~SourceHashes:
+    defb37037939f319a42c06043b92a465~../../../../../../../Models/Props/Upgrade/Upgrade_LP_split.fbx: 00000000000000000000000000000000

@@ -1,6 +1,0 @@
-!Texture
-Id: 505bd8cc-af42-4860-abec-fb458c2563d9
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/EndPiece/EndPiece_Roughness.png
-Type: !GrayscaleTextureType {}

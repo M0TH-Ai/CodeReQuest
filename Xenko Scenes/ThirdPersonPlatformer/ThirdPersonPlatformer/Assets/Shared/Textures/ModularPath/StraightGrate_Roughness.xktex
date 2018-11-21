@@ -1,6 +1,0 @@
-!Texture
-Id: 571c07d4-d8d6-4a0d-8942-f7c70ed4dea9
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/Grates/StraightGrate_Roughness.png
-Type: !GrayscaleTextureType {}

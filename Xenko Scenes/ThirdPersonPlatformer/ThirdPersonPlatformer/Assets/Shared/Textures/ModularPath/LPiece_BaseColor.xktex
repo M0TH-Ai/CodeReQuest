@@ -1,7 +1,0 @@
-!Texture
-Id: b23e5737-c5ab-444b-9008-e4dd830f7291
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/LPiece/LPiece_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

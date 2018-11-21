@@ -1,6 +1,0 @@
-!Texture
-Id: 9cda6e86-d606-4798-a3d2-994c12d13af8
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Boots_Metallic.png
-Type: !GrayscaleTextureType {}

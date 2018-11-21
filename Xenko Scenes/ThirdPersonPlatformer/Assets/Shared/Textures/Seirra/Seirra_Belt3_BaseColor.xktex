@@ -1,0 +1,7 @@
+!Texture
+Id: ecee2048-1dfb-441a-b10c-3e652a529abb
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Belt3_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

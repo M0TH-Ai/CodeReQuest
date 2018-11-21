@@ -1,6 +1,0 @@
-!Texture
-Id: d62a8d84-2936-4618-bbad-8c3a7634e9cd
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/ventSG_Roughness.png
-Type: !GrayscaleTextureType {}

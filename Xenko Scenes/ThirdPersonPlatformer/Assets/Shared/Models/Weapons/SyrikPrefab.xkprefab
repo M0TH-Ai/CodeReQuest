@@ -1,0 +1,54 @@
+!PrefabAsset
+Id: 123ba9a3-bb53-4ed1-9278-296857eefa51
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! cf946aba-2a15-40bf-82bc-6eff8ec354ed
+    Parts:
+        -   Entity:
+                Id: cf946aba-2a15-40bf-82bc-6eff8ec354ed
+                Name: Syrik Sword
+                Components:
+                    f799366bc7953d99553ec5224340cc8e: !TransformComponent
+                        Id: d77aec61-da1d-4560-a980-dd1c418dd43a
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    3442e213d3b73af3986f25d419017744: !ModelComponent
+                        Id: 70b12367-c424-4487-b9dc-1767f41daf57
+                        Model: 8ab063dc-e02a-4eaf-bccb-a98a37c82794:Models/Weapons/Syrik Sword
+                        Materials: {}
+                    2ef80229b8c92d703b5b6cc7606c8f46: !ModelNodeLinkComponent
+                        Id: c4cab1c4-62fd-46c6-abfe-d86c8068fef0
+                        Target: null
+                        NodeName: null
+                    6bf90b22b185d6e861d5a1ac91c9a2fe: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: ed142c6b-8c88-4334-9002-2c08d4573fae
+                        TriggerCondition: StartOnly
+                    649ff819e1ea2aaf475ac3adee526f4b: !RigidbodyComponent
+                        Id: 0678c92e-bffa-4bf6-8804-2fc3b6d0a2e2
+                        CanCollideWith: CharacterFilter, CustomFilter1, CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: true
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            5ea9f6d504f6dc9fde9d5a682ec51d7d: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.2, Z: 0.2}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    237d23688b75103170d74c0c29f27f94: !Player.PhysicsTrigger,ThirdPersonPlatformer.Game
+                        Id: d7ddfd60-2994-4b2b-917e-46331e3a7cbc

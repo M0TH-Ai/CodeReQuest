@@ -1,7 +1,0 @@
-!Texture
-Id: 68fd56e8-b9a7-4394-80c4-baf2eb872264
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/ventSG_Base_Color.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

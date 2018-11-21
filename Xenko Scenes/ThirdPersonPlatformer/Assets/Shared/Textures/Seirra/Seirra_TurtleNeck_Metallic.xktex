@@ -1,0 +1,6 @@
+!Texture
+Id: c0c7b031-7ffa-4dcc-a5ed-d41fbbb5cfa0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_TurtleNeck_Metallic.png
+Type: !GrayscaleTextureType {}

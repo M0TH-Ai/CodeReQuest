@@ -1,6 +1,0 @@
-!Texture
-Id: d57dce41-e72f-42af-adf0-1a6e67707b06
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Shroud_Metallic.png
-Type: !GrayscaleTextureType {}

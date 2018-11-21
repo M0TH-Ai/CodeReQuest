@@ -1,7 +1,0 @@
-!Texture
-Id: 10521946-0c3b-4650-8370-3e2d30c79338
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

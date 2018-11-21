@@ -1,7 +1,0 @@
-!Texture
-Id: 87406a26-4e98-4764-9c0e-df6303a1ee7c
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Shroud_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

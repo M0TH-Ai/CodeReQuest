@@ -1,7 +1,0 @@
-!Texture
-Id: 7542b8c3-9822-43f1-b127-512920fd33d8
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Eyes_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

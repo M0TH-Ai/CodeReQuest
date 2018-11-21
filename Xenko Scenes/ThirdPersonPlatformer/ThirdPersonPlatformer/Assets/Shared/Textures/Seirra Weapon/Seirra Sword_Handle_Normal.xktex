@@ -1,7 +1,0 @@
-!Texture
-Id: 631b079f-2a84-4eda-9c0a-ed3fb0ead59b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Handle_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

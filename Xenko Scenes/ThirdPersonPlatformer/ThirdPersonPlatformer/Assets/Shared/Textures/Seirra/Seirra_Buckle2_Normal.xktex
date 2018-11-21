@@ -1,7 +1,0 @@
-!Texture
-Id: d57d4345-d9ac-4a13-8b70-352ab7f73ee9
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Buckle2_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

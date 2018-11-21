@@ -1,6 +1,0 @@
-!Texture
-Id: c2bb6b35-7358-4809-a75c-28cf75bdaa55
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/baseSG_Metallic.png
-Type: !GrayscaleTextureType {}

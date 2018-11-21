@@ -1,0 +1,19 @@
+!Model
+Id: 0bdd47d4-0154-493b-85e1-ad4be70747f9
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Props/ModularPath/TPiece.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    db6f89df4b0fdda3f21347a627d92897:
+        Name: TPieceMat
+        MaterialInstance:
+            Material: 6b90f996-8a64-4cdb-b93c-4d7c697bf981:Models/ModularPath/TPieceMat
+    459a29fd73c64efe41a18c613db728ae:
+        Name: CrossGrateMat
+        MaterialInstance:
+            Material: 016ffe20-fc39-4070-b987-6023989445ea:Models/ModularPath/CrossGrateMat
+Modifiers: {}
+~SourceHashes:
+    4caa6b3bdd69765279324a00b90c7689~../../../../../../../Models/Props/ModularPath/TPiece.fbx: 00000000000000000000000000000000

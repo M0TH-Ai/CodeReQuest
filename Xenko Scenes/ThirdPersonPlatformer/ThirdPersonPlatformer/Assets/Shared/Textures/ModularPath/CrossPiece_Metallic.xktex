@@ -1,6 +1,0 @@
-!Texture
-Id: b2bb1fca-f595-4536-a303-49d46fa916c3
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/CrossPiece/CrossPiece_Metallic.png
-Type: !GrayscaleTextureType {}

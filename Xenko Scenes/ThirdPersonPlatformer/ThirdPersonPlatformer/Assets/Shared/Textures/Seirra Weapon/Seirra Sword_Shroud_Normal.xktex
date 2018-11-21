@@ -1,7 +1,0 @@
-!Texture
-Id: c24ed247-eb8b-40e5-abc7-f5f1119303d6
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Shroud_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

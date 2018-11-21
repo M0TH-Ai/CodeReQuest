@@ -1,7 +1,0 @@
-!Texture
-Id: b7ecf96d-d61a-408a-a91c-b9af446792bb
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_TurtleNeck_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

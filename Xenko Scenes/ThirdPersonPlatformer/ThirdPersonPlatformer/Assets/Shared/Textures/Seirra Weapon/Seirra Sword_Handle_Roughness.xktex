@@ -1,6 +1,0 @@
-!Texture
-Id: 0732fb62-85a1-44c6-b790-880bbad4729d
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Handle_Roughness.png
-Type: !GrayscaleTextureType {}

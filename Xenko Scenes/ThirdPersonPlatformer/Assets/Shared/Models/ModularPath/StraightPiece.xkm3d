@@ -1,0 +1,19 @@
+!Model
+Id: 424044d3-a3ab-4bbb-bb85-2a3fb703ee72
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Props/ModularPath/StraightPiece.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    cf7b4770406da25da373ad006cf86c73:
+        Name: StraightPieceMat
+        MaterialInstance:
+            Material: 6a0d28a5-7ca2-4f70-ba57-5a503e7e2cd9:Models/ModularPath/StraightPieceMat
+    e771a4b5a96759167627353a1c196f8a:
+        Name: StraightGrateMat
+        MaterialInstance:
+            Material: c7d61cf3-9705-462e-8e6c-f173d4d78d4f:Models/ModularPath/StraightGrateMat
+Modifiers: {}
+~SourceHashes:
+    82a0c7e89d4e290d1f576d66e4d25f74~../../../../../../../Models/Props/ModularPath/StraightPiece.fbx: 00000000000000000000000000000000

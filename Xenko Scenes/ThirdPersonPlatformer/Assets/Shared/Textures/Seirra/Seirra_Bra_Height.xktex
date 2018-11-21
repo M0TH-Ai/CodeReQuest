@@ -1,0 +1,6 @@
+!Texture
+Id: 50625cce-ad25-421a-8a0c-23f631098d31
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Bra_Height.png
+Type: !GrayscaleTextureType {}

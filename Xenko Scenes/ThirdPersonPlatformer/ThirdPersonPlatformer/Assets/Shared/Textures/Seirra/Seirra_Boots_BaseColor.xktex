@@ -1,7 +1,0 @@
-!Texture
-Id: c5af8ebb-557c-4092-913c-f5724e3ad7ff
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Boots_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

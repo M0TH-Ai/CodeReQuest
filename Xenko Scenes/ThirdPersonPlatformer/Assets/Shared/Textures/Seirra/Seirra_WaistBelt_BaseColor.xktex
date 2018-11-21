@@ -1,0 +1,7 @@
+!Texture
+Id: c4bfe4ab-b3cd-44ed-a634-667911bfa9e0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_WaistBelt_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,7 +1,0 @@
-!Texture
-Id: 10d1fa09-5d31-4f6b-ab21-32fac7318b77
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/ventSG_Normal_OpenGL.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

@@ -1,0 +1,6 @@
+!Texture
+Id: 456c340b-02d7-4eaf-b4c4-c986ce61977b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Pants_Metallic.png
+Type: !GrayscaleTextureType {}

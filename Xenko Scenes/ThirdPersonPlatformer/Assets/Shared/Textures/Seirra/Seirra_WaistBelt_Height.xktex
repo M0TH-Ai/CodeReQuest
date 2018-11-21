@@ -1,0 +1,6 @@
+!Texture
+Id: b6a3afc7-e06e-444d-b607-f67c4578aa8b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_WaistBelt_Height.png
+Type: !GrayscaleTextureType {}

@@ -1,8 +1,0 @@
-!Texture
-Id: cebdf6c5-beb5-4c08-a7de-5de6f2893957
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/CrossPiece/CrossPiece_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType
-    InvertY: false

@@ -1,0 +1,6 @@
+!Texture
+Id: 9d184555-6f5a-4b31-9658-6bc7c0fbe1e6
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Boots_Roughness.png
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,6 @@
+!Texture
+Id: cf6957e9-7b52-4f50-b3a7-fee7b60d5d8b
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Pants_Roughness.png
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,7 @@
+!Texture
+Id: b9e86f23-593e-48a4-b0d3-b92127a62cc2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Belt2_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

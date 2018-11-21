@@ -1,0 +1,6 @@
+!Texture
+Id: 0e400d6e-cc77-4dc7-a826-2657f5c1bb96
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Jacket_Height.png
+Type: !GrayscaleTextureType {}

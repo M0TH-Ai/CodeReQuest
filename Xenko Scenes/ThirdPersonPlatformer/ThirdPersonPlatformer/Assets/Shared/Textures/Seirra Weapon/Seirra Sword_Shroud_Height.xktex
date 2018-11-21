@@ -1,6 +1,0 @@
-!Texture
-Id: 75d77665-78a9-4166-a400-f71602a968fb
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Shroud_Height.png
-Type: !GrayscaleTextureType {}

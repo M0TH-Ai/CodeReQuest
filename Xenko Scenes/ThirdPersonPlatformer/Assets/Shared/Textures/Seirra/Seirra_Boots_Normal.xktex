@@ -1,0 +1,7 @@
+!Texture
+Id: 8a4977e5-9f6f-4556-95ce-4b0432705203
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Boots_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

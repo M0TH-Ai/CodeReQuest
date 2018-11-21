@@ -1,7 +1,0 @@
-!Texture
-Id: 4e047a88-0d75-4dd0-aee1-183d93efa7ad
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/railingSG_Normal_OpenGL.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

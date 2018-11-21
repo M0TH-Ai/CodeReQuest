@@ -1,6 +1,0 @@
-!Texture
-Id: 04a0f470-4f4a-4a75-ad56-e84bda0397ba
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_WaistBelt_Metallic.png
-Type: !GrayscaleTextureType {}

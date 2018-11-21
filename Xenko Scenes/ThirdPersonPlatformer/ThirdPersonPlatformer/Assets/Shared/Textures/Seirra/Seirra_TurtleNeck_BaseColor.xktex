@@ -1,7 +1,0 @@
-!Texture
-Id: f08f8109-8d34-488f-9ae0-c39aba78239d
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_TurtleNeck_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

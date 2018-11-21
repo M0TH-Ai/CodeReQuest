@@ -1,6 +1,0 @@
-!Texture
-Id: 393ef00b-4638-4c0f-93d2-5b1a49b91d6d
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/Grates/StraightGrate_Metallic.png
-Type: !GrayscaleTextureType {}

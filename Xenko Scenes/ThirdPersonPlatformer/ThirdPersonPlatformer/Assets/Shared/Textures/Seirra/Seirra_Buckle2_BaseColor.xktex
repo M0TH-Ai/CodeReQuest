@@ -1,7 +1,0 @@
-!Texture
-Id: a9dd9cfb-f03c-4c4b-b7ee-a0090ddcf416
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Buckle2_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

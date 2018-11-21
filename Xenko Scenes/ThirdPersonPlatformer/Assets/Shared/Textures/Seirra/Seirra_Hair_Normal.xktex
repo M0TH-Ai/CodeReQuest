@@ -1,0 +1,7 @@
+!Texture
+Id: c6afc2cb-6aa3-495c-a89a-58b23b5e046c
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Hair_Normal.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

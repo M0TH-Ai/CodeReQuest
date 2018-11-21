@@ -1,6 +1,0 @@
-!Texture
-Id: 3864333d-ca21-4bf6-accf-e0e33d5fd965
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/railingSG_Metallic.png
-Type: !GrayscaleTextureType {}

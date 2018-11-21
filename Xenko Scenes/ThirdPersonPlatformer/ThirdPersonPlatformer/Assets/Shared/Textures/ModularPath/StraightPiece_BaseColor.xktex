@@ -1,7 +1,0 @@
-!Texture
-Id: b532e784-5b60-4c04-bbda-31fc33f3a369
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/StraightPiece/StraightPiece_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,6 +1,0 @@
-!Texture
-Id: e98e8b43-012f-4763-8691-ca322bb4adb7
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/StraightPiece/StraightPiece_Metallic.png
-Type: !GrayscaleTextureType {}

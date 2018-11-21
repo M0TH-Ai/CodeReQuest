@@ -1,6 +1,0 @@
-!Texture
-Id: b1fc7c36-914b-4dab-b390-ada551fbf5c8
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_TurtleNeck_Height.png
-Type: !GrayscaleTextureType {}

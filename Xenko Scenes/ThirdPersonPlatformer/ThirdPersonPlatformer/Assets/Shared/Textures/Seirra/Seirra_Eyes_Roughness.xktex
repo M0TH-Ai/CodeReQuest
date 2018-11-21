@@ -1,6 +1,0 @@
-!Texture
-Id: 2c13aa5c-ffaf-4cf5-8a6d-22a0657b5e1c
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Eyes_Roughness.png
-Type: !GrayscaleTextureType {}

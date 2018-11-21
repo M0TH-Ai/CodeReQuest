@@ -1,6 +1,0 @@
-!Texture
-Id: 2224fafb-60be-44ef-b602-dc76fa82f42e
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Belt2_Height.png
-Type: !GrayscaleTextureType {}

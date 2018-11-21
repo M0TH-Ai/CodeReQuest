@@ -1,6 +1,0 @@
-!Texture
-Id: 47abcf83-50bc-4c8f-8819-51cef78bc009
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Eyes_Metallic.png
-Type: !GrayscaleTextureType {}

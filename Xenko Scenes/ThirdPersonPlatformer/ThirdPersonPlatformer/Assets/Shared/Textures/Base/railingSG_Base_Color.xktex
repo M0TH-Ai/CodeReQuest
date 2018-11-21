@@ -1,7 +1,0 @@
-!Texture
-Id: 374885aa-4b5f-4176-9802-136fa0c2745b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/Upgrade/TexturesGreen/railingSG_Base_Color.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

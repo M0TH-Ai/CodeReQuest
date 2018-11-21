@@ -1,7 +1,0 @@
-!Texture
-Id: 4702a088-ddba-4464-b291-495f61af7a10
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Bra_Normal.png
-IsCompressed: false
-Type: !NormalMapTextureType {}

@@ -1,6 +1,0 @@
-!Texture
-Id: be80d489-7559-43b8-8cc8-bf9c2ad9ee8b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Bra_Roughness.png
-Type: !GrayscaleTextureType {}

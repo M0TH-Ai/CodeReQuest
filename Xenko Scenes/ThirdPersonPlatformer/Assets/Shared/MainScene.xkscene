@@ -1,0 +1,1099 @@
+!SceneAsset
+Id: 13e1605f-4fc9-4e6b-b733-9e862034d38a
+SerializedVersion: {Xenko: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 27a91eaf-7622-42b4-89a2-3495a753b8d9
+        - ref!! e1d761e6-634d-4773-8d81-75dfc8e8b1c4
+        - ref!! 5fc52dcf-f9f8-4c6d-b32d-3fc989aea8ad
+        - ref!! 56f4d87d-2632-4818-8067-91007acbe2d2
+        - ref!! 469d9627-230b-4103-9a32-76712acd6ce8
+        - ref!! 673c98ad-621c-481c-9da2-88992a469765
+        - ref!! 44fbd50a-0c03-4896-9b71-62dddc75ed8d
+        - ref!! e21d03c7-0a0e-4a4f-b1d8-4c56eb866706
+        - ref!! 9c0fa0b3-eaf4-4a9a-9631-51cf24b598a0
+        - ref!! 2c66a19e-36d7-4743-8c68-76f19c002f21
+        - ref!! 3eee0685-c355-49d3-9a4d-5de8c1442f08
+        - ref!! 53d7d957-63fa-4380-b82c-7f795d1d65b2
+        - ref!! efb97a37-10f1-49c7-8354-8273cba19f53
+        - ref!! e7333388-1c34-4faa-8464-8215dc13712b
+        - ref!! c58ce3b1-05ef-4414-9fdf-474e42deb8e5
+        - ref!! 3a338e29-3929-45de-ac03-da86f7ecd26e
+        - ref!! 41790a91-421d-4b85-84c8-4df802c40e62
+        - ref!! d0712ec2-3a44-4360-8739-9a351e1843f4
+        - ref!! ab8b22ae-d3d3-4f8b-86a1-5c8b17d23722
+        - ref!! a64c0c6e-a688-4a61-b889-9c8925a11157
+        - ref!! 6eb936a1-6346-4c23-b33b-dac689838fac
+        - ref!! 79b798e6-2b83-4716-8845-e569547eebb6
+        - ref!! 63ec8ffa-1489-4d84-8484-8574009bebc5
+        - ref!! d3903eba-10c6-4a0d-b363-b308c21154c6
+        - ref!! 9cb7f348-4b35-49b5-bd45-a24e21c66c9b
+        - ref!! 2b707cf8-8c33-4fdf-a95e-1d9033fc671a
+        - ref!! 7aac6559-0cef-4f23-b050-50a27353455f
+        - ref!! 13c7288f-20b4-47eb-bec7-412d3727b650
+        - ref!! 37ef05ea-dcaa-4701-86ee-b54579b9cbb0
+        - ref!! d2c94ef5-0eff-430c-b39c-82088ac927cf
+        - ref!! 6f258345-4945-4a7d-9db9-feeb9cd2b847
+        - ref!! e041e665-763b-465d-8f55-206b40664043
+        - ref!! 52ea316a-f054-4f92-94ca-43e0cc035f3c
+        - ref!! b22177fd-5f16-4f41-9be1-5864f2f70209
+        - ref!! 9458f158-0780-4190-8bdc-13cf6ec9dd10
+        - ref!! 2868f9df-8d13-4e1c-b5c8-c5e780f212e0
+        - ref!! d8a09c83-e654-4152-8994-ba56d799b185
+        - ref!! 5bdeefca-95cb-4bad-9505-4b5d4df2169f
+        - ref!! e4cc5cfa-9eaa-41f8-89c3-cb2f06931988
+        - ref!! b3db5fe0-7480-4b02-a7ae-65a1e1d2c049
+        - ref!! 9fcb117d-0f8e-4f9e-9dff-716e19869a78
+        - ref!! 33b74780-14fa-498a-a0b0-49b5afdf6e04
+        - ref!! 26795208-f4e2-4642-8f4d-a0bbbf1408a7
+        - ref!! 4f3c82e7-65c5-4115-8c13-e8bd6f3c51ed
+    Parts:
+        -   Folder: Complex
+            Entity:
+                Id: 13c7288f-20b4-47eb-bec7-412d3727b650
+                Name: Ramp1x1x1
+                Components:
+                    6a7f1fd73bf052488a984d24c536528e: !TransformComponent
+                        Id: d71f7f6a-f03b-4852-8a98-4d24c536528e
+                        Position: {X: -17.50829, Y: 1.99999976, Z: -5.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 0.1, Y: 1.0, Z: 2.0}
+                        Children: {}
+        -   Folder: null
+            Entity:
+                Id: 1a478988-c282-4a15-bd75-75a50cfe4374
+                Name: Collision
+                Components:
+                    56daa7dbb099df37ed05edb49418835b: !TransformComponent
+                        Id: 603becd9-d679-43ff-9f19-79b214ab0a47
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    33e9774cbd2b6d3031864ba3486e4137: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: cfffa568-35ea-4727-befd-4eb3a8d78edc
+                        TriggerCondition: StartOnly
+                    315df42d25634a21cecdd9056fbdd9af: !RigidbodyComponent
+                        Id: 8a13307e-1717-4bfd-a5af-90ce43352c1d
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            a7af4c8e9fe485d9c603ff521e1ef198: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 26795208-f4e2-4642-8f4d-a0bbbf1408a7
+                Name: weapon Spawn Point
+                Components:
+                    94735268333c4956acc977441bb8ec61: !TransformComponent
+                        Id: 45976114-65e7-47a0-9313-53c025b92ee0
+                        Position: {X: 13.24957, Y: 0.199305624, Z: 5.231058}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: GlobalLights
+            Entity:
+                Id: 27a91eaf-7622-42b4-89a2-3495a753b8d9
+                Name: Directional light
+                Components:
+                    5ab3300ae74fa14a9efcaa1f506407ce: !TransformComponent
+                        Id: 0a30b35a-4fe7-4aa1-9efc-aa1f506407ce
+                        Position: {X: -9.508, Y: 15.0, Z: 0.0}
+                        Rotation: {X: -0.5540323, Y: 0.212012157, Z: 0.1484525, W: 0.7912401}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    209f95c46d53de41a3dfff661934ae6c: !LightComponent
+                        Id: c4959f20-536d-41de-a3df-ff661934ae6c
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: XLarge
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                ComputeTransmittance: false
+                                BiasParameters:
+                                    DepthBias: 0.0015
+                        Intensity: 8.0
+        -   Entity:
+                Id: 2868f9df-8d13-4e1c-b5c8-c5e780f212e0
+                Name: WeaponBase_LP_split
+                Components:
+                    0d96d6468904bcf5eda72428ad713116: !TransformComponent
+                        Id: adc4b46b-1956-4c0e-b8de-990c5c7702de
+                        Position: {X: 13.24957, Y: -0.880111933, Z: 5.231058}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    71c329ef4610d5615c6f5f0f5131020f: !ModelComponent
+                        Id: 6cf30c07-e1d2-412a-9f94-e02de0242f55
+                        Model: 0fb0815a-e476-4a3e-8a0a-ee43ab767bc8:Models/ModularPath/WeaponBase_LP_split
+                        Materials: {}
+                    9c485f936fa9e9a00b1b7058bae91e80: !UIComponent
+                        Id: 036f18ed-a712-43de-9992-b6ca88457ced
+                        Enabled: false
+                        Page: a9f761cf-29e6-4a13-84d6-5e2c1f2544c3:Page_2
+                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                    0af57a81d308d7bceafaafe52ef4c1d5: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: d8438190-6ec6-40e7-8267-11b463ee5312
+                        TriggerCondition: StartOnly
+                    e34cc1e6a4a5b8f4c9b04808dda9991b: !StaticColliderComponent
+                        Id: 0e44fc5c-1b6a-47b2-87c1-dd359543244e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            e46bde694e5ca31fad8448d0abec87bf: !CylinderColliderShapeDesc
+                                Height: 0.1
+                                Radius: 1.0
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    4a5ce6e153fd6aad5be7b21ace7b65aa: !StaticColliderComponent
+                        Id: 5fc55e6a-b422-4aea-95f4-c1fd7cfb548f
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            a2f484be753d4023ca1b3b38f0024aac: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 3.0, Z: 1.0}
+                                LocalOffset: {X: -3.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    cd2e20b318c1b652496632cdf7eb4e65: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: d4b95f0a-26fc-4ebc-acd5-66c9d5727085
+                        TriggerCondition: EndOnly
+        -   Folder: Complex
+            Entity:
+                Id: 2b707cf8-8c33-4fdf-a95e-1d9033fc671a
+                Name: Floor2x0x1 (4)
+                Components:
+                    72ce75cffbba054ea36739f86952ea97: !TransformComponent
+                        Id: cf75ce72-bafb-4e05-a367-39f86952ea97
+                        Position: {X: -17.50829, Y: 3.0, Z: -8.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.22571367, W: 0.9741937}
+                        Scale: {X: 1.2, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 2c66a19e-36d7-4743-8c68-76f19c002f21
+                Name: Stairs1x1x2 (4)
+                Components:
+                    2c5f68fcb76b3d4f92bd18eb7866ff5b: !TransformComponent
+                        Id: fc685f2c-6bb7-4f3d-92bd-18eb7866ff5b
+                        Position: {X: -17.50829, Y: 2.0, Z: -9.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 33b74780-14fa-498a-a0b0-49b5afdf6e04
+                Name: DataStream
+                Components:
+                    3dbfea206bd5d797b5e869431b60a1dd: !TransformComponent
+                        Id: fa17d800-30be-4b54-8b00-b5b68f1e57a1
+                        Position: {X: -18.5207253, Y: -1.89843893, Z: 6.34641647}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 21.9820328, Y: 21.9820328, Z: 21.9820328}
+                        Children: {}
+                    822dd1a9ea23ec2331464c10e322bdaf: !ModelComponent
+                        Id: 4526ffc1-d8ae-4825-adda-ad4a914013e2
+                        Model: null
+                        Materials: {}
+                    6164944689c7e6d79e9996f645982cbf: !StaticColliderComponent
+                        Id: 5ba0cc07-3570-4a4a-85a0-1c35f780c5cf
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            ec0188e4a4a203c42c5e22902424f138: !CylinderColliderShapeDesc
+                                Height: 0.1
+                                Radius: 1.1
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: Complex
+            Entity:
+                Id: 37ef05ea-dcaa-4701-86ee-b54579b9cbb0
+                Name: Wall0x2x2
+                Components:
+                    7f760605c680f54b9c16df54c2068a80: !TransformComponent
+                        Id: 0506767f-80c6-4bf5-9c16-df54c2068a80
+                        Position: {X: -15.5082884, Y: 0.0, Z: -9.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 3a338e29-3929-45de-ac03-da86f7ecd26e
+                Name: Stairs1x1x2 (2)
+                Components:
+                    af1fb80bd414dc41aaa36ac4935a406a: !TransformComponent
+                        Id: 0bb81faf-14d4-41dc-aaa3-6ac4935a406a
+                        Position: {X: -20.50829, Y: 1.0, Z: -3.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 3eee0685-c355-49d3-9a4d-5de8c1442f08
+                Name: Box2x1x1 (4)
+                Components:
+                    7b42bf08cf01a8439eae83adeb099394: !TransformComponent
+                        Id: 08bf427b-01cf-43a8-9eae-83adeb099394
+                        Position: {X: -16.50829, Y: 0.0, Z: -10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.707106769, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 414a7e4e-36e4-4148-8bab-68ee3e7e4ed5
+                Name: Seirra Sword
+                Components:
+                    132d2f52834b80b23b966cad3517c894: !TransformComponent
+                        Id: 40945fb2-d9b5-4936-bcda-ad8f8e8185e1
+                        Position: {X: -0.395, Y: 0.085, Z: 0.027}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    95b23bb25126e5ee9f9f68f1ab4f8a80: !ModelComponent
+                        Id: 30eefe98-4773-4825-8003-e630b75a7681
+                        Model: 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword
+                        Materials: {}
+                    b36392aa577b77c7ec87f074bf0cf5e7: !ModelNodeLinkComponent
+                        Id: 4c7061ab-0a8e-4c66-ab4f-eeba86560a15
+                        Target: null
+                        NodeName: RightHand
+                    1133caf181a1d9b963b6dc4848b399a7: !RigidbodyComponent
+                        Id: 95f2df69-d194-438b-8190-dcf56a5f88e6
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: CustomFilter1, CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        IsKinematic: true
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: true
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            61a9ddb53c7b9ab7a176fe2213b15856: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.2, Z: 0.2}
+                                LocalOffset: {X: -0.25, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    f4c4259fc09dbb13f0f331052be07da3: !Player.PhysicsTrigger,ThirdPersonPlatformer.Game
+                        Id: 295056cb-28fe-4086-8b99-dc06d33c354f
+                    107fff318c3cb9a786ce612438071093: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: b04eec4d-20ef-4441-ae2a-7eca4eb44f52
+                        TriggerCondition: StartOnly
+        -   Folder: Complex
+            Entity:
+                Id: 41790a91-421d-4b85-84c8-4df802c40e62
+                Name: Stairs1x1x2 (3)
+                Components:
+                    af1fb80bd414dc41aaa36ac4935a406a: !TransformComponent
+                        Id: 4ec89f90-6d21-4147-9644-bb36c194e3cb
+                        Position: {X: -20.50829, Y: 2.0, Z: -5.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 44fbd50a-0c03-4896-9b71-62dddc75ed8d
+                Name: Gate2x3x1
+                Components:
+                    f1d033c2255c0649862a543168d1afc2: !TransformComponent
+                        Id: c233d0f1-5c25-4906-862a-543168d1afc2
+                        Position: {X: -20.50829, Y: 0.0, Z: -5.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 469d9627-230b-4103-9a32-76712acd6ce8
+                Name: Box2x1x1 (2)
+                Components:
+                    a8f0d05dda0f70418c898445bde8a9a9: !TransformComponent
+                        Id: 5dd0f0a8-0fda-4170-8c89-8445bde8a9a9
+                        Position: {X: -20.50829, Y: 0.0, Z: -3.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 4f3c82e7-65c5-4115-8c13-e8bd6f3c51ed
+                Name: Disk A
+                Components:
+                    3dd4c23f156c2bf97dfc829096beb97f: !TransformComponent
+                        Id: e0bd917a-5c89-4f96-b259-62853e6496f8
+                        Position: {X: -18.3058586, Y: -4.37511063, Z: 6.32446241}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.574100852, Y: 0.574100852, Z: 0.574100852}
+                        Children: {}
+                    ca8217d6892a707066a50e41df0e73c9: !ModelComponent
+                        Id: 7e75e018-8215-4f50-be00-e9612c708be1
+                        Model: null
+                        Materials: {}
+        -   Entity:
+                Id: 51a86f4d-298c-4fc4-964b-de29f9a624fc
+                Name: MannequinModel
+                Components:
+                    1245d3c0d097e44e8295e28dad432562: !TransformComponent
+                        Id: c0d34512-97d0-4ee4-8295-e28dad432562
+                        Position: {X: 0.0, Y: 0.02286236, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            bd65976e6e1541a577e3e7f8ca2e5c09: ref!! 40945fb2-d9b5-4936-bcda-ad8f8e8185e1
+                    0fa4902c57c2de428808e383912863ea: !ModelComponent
+                        Id: 2c90a40f-c257-42de-8808-e383912863ea
+                        Model: 47b065ba-1bc4-4b73-a8d4-60c89d91177e:Models/Seirra/Seirra_Player
+                        RenderGroup: Group1
+                        Materials: {}
+                    07615376169a09c61161ca1dcc9a4055: !ThirdPersonPlatformer.Player.AnimationController,ThirdPersonPlatformer.Game
+                        Id: faab8e97-45ac-4d3f-9375-495d32bc299f
+                        attackIdleOn: true
+                        input: ref!! 6af69b80-69ef-4626-891c-293be4ca17b2
+                        currentTime: 0.0
+                        state: Walking
+                        AnimationComponent: ref!! 58400900-b32c-4bf7-b5a9-db6cfb20a858
+                        AnimationIdle: 96d07271-1561-4f5f-be18-2432886f397b:Animations/Seirra/Idle
+                        AnimationWalk: 5a7aef85-9e4e-49d6-9cfc-78e934f5f894:Animations/Seirra/Walking
+                        AnimationAWalk: c6e7c086-284f-4457-b4fa-a7b92bf97370:Animations/Seirra/2handRun
+                        AnimationRun: 4d28572c-2f8a-41d8-8e43-1ef15b9d0f19:Animations/Seirra/Running
+                        AnimationARun: c6e7c086-284f-4457-b4fa-a7b92bf97370:Animations/Seirra/2handRun
+                        AnimationJumpStart: 75cab292-3182-4bcc-ae28-f9a06200db4a:Animations/Seirra/Jumping
+                        AnimationJumpMid: 22a8fccc-01c2-498e-bc11-495d6148afcb:Animations/Seirra/Falling Idle
+                        AnimationJumpEnd: ff2520eb-5d96-435d-9be7-b718ffdebae2:Animations/Seirra/Falling To Landing
+                        WalkThreshold: 0.43
+                        AWalkThreshold: 0.25
+                        AnimationPunch: d1193f50-2065-4a7a-88ef-5fa4c66b0fa0:Animations/Seirra/Two Hand Sword Combo 2
+                        AnimationPunch2: a7ff76fc-9951-4606-8692-073f5a0bf543:Animations/Seirra/Flip Kick
+                        AnimationQuickAttack: bcec4659-4536-4978-9ca4-e90554530b35:Animations/Seirra/Standing Melee Attack Horizontal
+                        AnimationAIdle: 021f9f93-e011-46c1-b26b-a0c600883fd3:Animations/Seirra/Weapon Idle
+                        TimeFactor: 1.0
+                    89fb3590a164800f3b7abd370d486793: !AnimationComponent
+                        Id: 58400900-b32c-4bf7-b5a9-db6cfb20a858
+                        Animations: {}
+        -   Entity:
+                Id: 52ea316a-f054-4f92-94ca-43e0cc035f3c
+                Name: EndPiece
+                Components:
+                    294b651fcca10a2013e4db0a0d8cf161: !TransformComponent
+                        Id: 966f6c09-b307-4341-8384-e5c82a56df93
+                        Position: {X: 11.1873922, Y: -1.2151345, Z: 1.51465142}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    e2b8efa2f47d36757b0d6db495ed068a: !ModelComponent
+                        Id: f0055d49-e05b-4d96-a68d-c176f5a1a886
+                        Model: 73bd90a0-2690-4110-8f47-c4f7cabcf829:Models/ModularPath/EndPiece
+                        Materials: {}
+                    680f24fe1bd81e59b5580af907e21698: !StaticColliderComponent
+                        Id: f0720991-e0ed-4297-9f80-4fb13dc7e6ec
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            644dc9f8ba9b9b3d1b76ae970c9e1217: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: Complex
+            Entity:
+                Id: 53d7d957-63fa-4380-b82c-7f795d1d65b2
+                Name: Box3x1x1 (3)
+                Components:
+                    2e77599b7bed2549939761e3d807b5aa: !TransformComponent
+                        Id: 9b59772e-ed7b-4925-9397-61e3d807b5aa
+                        Position: {X: -20.50829, Y: 0.0, Z: -7.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 56f4d87d-2632-4818-8067-91007acbe2d2
+                Name: Box2x1x1
+                Components:
+                    a8f0d05dda0f70418c898445bde8a9a9: !TransformComponent
+                        Id: 5d5defa3-0880-4082-9842-6306c5a357b6
+                        Position: {X: -20.50829, Y: 0.0, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 5bdeefca-95cb-4bad-9505-4b5d4df2169f
+                Name: StraightPiece
+                Components:
+                    bc3795a43835e86138bf65f9214dc97a: !TransformComponent
+                        Id: 087a886c-4c2a-4d08-8174-7100b40c03e6
+                        Position: {X: 7.52771854, Y: -1.21755958, Z: 5.26853561}
+                        Rotation: {X: 0.0, Y: -0.704459369, Z: 0.0, W: 0.709744334}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6d8388c73371bed66e9ab9a4ebd2ba97: !ModelComponent
+                        Id: 2a7f1960-71a0-4482-9988-243c2996c7a6
+                        Model: 424044d3-a3ab-4bbb-bb85-2a3fb703ee72:Models/ModularPath/StraightPiece
+                        Materials: {}
+                    36aea08933774863cf8f80018c20d061: !StaticColliderComponent
+                        Id: 07c5306e-6eaf-4792-9b40-f01c225a3c8e
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            1525808be56b72ba18b73719f62b38c5: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: 5fc52dcf-f9f8-4c6d-b32d-3fc989aea8ad
+                Name: PlayerCharacter
+                Components:
+                    b296752080481e41b569d385767428ce: !TransformComponent
+                        Id: 207596b2-4880-411e-b569-d385767428ce
+                        Position: {X: -11.536046, Y: -0.5949178, Z: -3.56962013}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1245d3c0d097e44e8295e28dad432562: ref!! c0d34512-97d0-4ee4-8295-e28dad432562
+                            39d4bdb202782a41869f2a6d53da4edf: ref!! b2bdd439-7802-412a-869f-2a6d53da4edf
+                    b978a0332590234b9f3a3537f50e75ae: !CharacterComponent
+                        Id: 33a078b9-9025-4b23-9f3a-3537f50e75ae
+                        CollisionGroup: CharacterFilter
+                        CanCollideWith: DefaultFilter, StaticFilter, KinematicFilter, DebrisFilter, SensorTrigger, CharacterFilter, CustomFilter3, CustomFilter4, CustomFilter5, CustomFilter6, CustomFilter7, CustomFilter8, CustomFilter9, CustomFilter10
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.4
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        FallSpeed: 10.0
+                        MaxSlope: {Radians: 0.7853982}
+                        JumpSpeed: 13.0
+                        Gravity: {X: 0.0, Y: -40.0, Z: 0.0}
+                        ColliderShapes:
+                            56a5239435c0e54188f913fd5d2f5dee: !CapsuleColliderShapeDesc
+                                Length: 1.2
+                                Radius: 0.4
+                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    8074e66c6311c0c300fb1348fea37ac4: !ThirdPersonPlatformer.Player.PlayerController,ThirdPersonPlatformer.Game
+                        Id: 94a122f7-1696-4669-a5d2-6eaf23d2ae03
+                        sword: ref!! 414a7e4e-36e4-4148-8bab-68ee3e7e4ed5
+                        inputSystem: ref!! 6af69b80-69ef-4626-891c-293be4ca17b2
+                        attacking: false
+                        quickattack: true
+                        runningRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        player: ref!! 5fc52dcf-f9f8-4c6d-b32d-3fc989aea8ad
+                        idleRotation: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
+                        MaxRunSpeed: 10.0
+                        Animator: null
+                        AttackDistance: 8.0
+                        AttackCooldown: 1.0
+                        MaxShootDistance: 2.0
+                        ShootImpulse: 5.0
+                        JumpReactionThreshold: 1.0
+                        PunchCollision: ref!! 95f2df69-d194-438b-8190-dcf56a5f88e6
+                        AttackEntity: null
+                        AttackEntity1: null
+                        AttackEntity2: null
+                        AttackCooldown1: 0.0
+                    15c6f107adc2859dd75efaec51c3cffa: !ThirdPersonPlatformer.Player.PlayerInput,ThirdPersonPlatformer.Game
+                        Id: 6af69b80-69ef-4626-891c-293be4ca17b2
+                        movementsystem: false
+                        moving: false
+                        MouseSensitivity: 100.0
+                        DeadZone: 0.5
+                        Camera: ref!! 65d1b71f-4862-4efc-b7c1-3c9d933979c7
+                        ControllerComponent: ref!! 94a122f7-1696-4669-a5d2-6eaf23d2ae03
+                        KeysLeft:
+                            188e93f66916cf656ff39c2c364a16ce: A
+                            209be0885cbd15e2824ee34abbf1e993: Left
+                        KeysRight:
+                            b19f9a0fb9749d53d2cf6e353c2dde59: D
+                            da3e9e9055cb7a4648d733f34b8a6afb: Right
+                        KeysUp:
+                            6f9526aa5d381de305cc00fa39927ff8: W
+                            0bf61a77531d87ca4bc6697a5d3a9a73: Up
+                        KeysDown:
+                            d074974d39648acf3dd67ba90125999c: S
+                            47b7f2884469c9d74a4712034dba6f5a: Down
+                        KeysJump:
+                            23fe5ceb28bd9649fa594f451bbef24b: Space
+                        KeysAttack:
+                            a56edbb76139d1b82af5ad2b3aa2c986: H
+                        KeysAttack2:
+                            4c4616473d03d6ab6974179ba4d51b38: J
+                        KeysAttackMode:
+                            e2c1eb5ae7a8b1b5c467c19cf83cc841: Z
+                        SwitchRight:
+                            cfde0d7bdf51a7762f1539cbb5cb2241: E
+                        SwitchLeft:
+                            80e4cbeba19871393117de4fa76cd84d: Q
+        -   Folder: Complex
+            Entity:
+                Id: 63ec8ffa-1489-4d84-8484-8574009bebc5
+                Name: Floor2x0x1
+                Components:
+                    72ce75cffbba054ea36739f86952ea97: !TransformComponent
+                        Id: a783acdf-bb62-4cb8-a76d-0322d33cd69a
+                        Position: {X: -19.50829, Y: 3.0, Z: -6.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 673c98ad-621c-481c-9da2-88992a469765
+                Name: Box2x1x1 (3)
+                Components:
+                    a8f0d05dda0f70418c898445bde8a9a9: !TransformComponent
+                        Id: fcb532ba-0fbd-4e85-86f6-6d298b6a924c
+                        Position: {X: -20.50829, Y: 1.0, Z: -3.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 6eb936a1-6346-4c23-b33b-dac689838fac
+                Name: Wall0x2x2Window (2)
+                Components:
+                    04b9812a7f20ce4486c686110d3172ad: !TransformComponent
+                        Id: 2a81b904-207f-44ce-86c6-86110d3172ad
+                        Position: {X: -17.50829, Y: 0.0, Z: -5.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 6f258345-4945-4a7d-9db9-feeb9cd2b847
+                Name: BoxE
+                Components:
+                    c863eba77d3aab785a570eb1c0c377f4: !TransformComponent
+                        Id: 513b5b7a-ced3-40b8-912e-3859c1475dd8
+                        Position: {X: 0.397584915, Y: -0.331043839, Z: 1.67435217}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            06eedf8b31fcca541a32b052c92d2202: ref!! 603becd9-d679-43ff-9f19-79b214ab0a47
+                    6e53c28b12fb50b69d547dec0daeef79: !ModelComponent
+                        Id: 7c52cd11-2410-472d-a80e-119643ef9e9f
+                        Model: 0abf7f02-2c72-4c82-9ec9-030cf475055a:Models/BoxF
+                        Materials: {}
+                    93b272b54fbaac0271730f372c5c7322: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: b8f930fe-2407-4bfe-883b-a9d8f7a3dc60
+                        TriggerCondition: StartOnly
+                    54ff70803648e0971f0a15d4054ddbbb: !RigidbodyComponent
+                        Id: 991bb993-736b-4cbc-8c87-ce63c83ae5a5
+                        CollisionGroup: CustomFilter1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: false
+                        Mass: 1.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            869af2c0adbcf0ed01a7c353c82db899: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    1df770f79e087fb0fe5285160538b2b1: !ThirdPersonPlatformer.BoxCollisionScript,ThirdPersonPlatformer.Game
+                        Id: 56b795ae-8986-4bb1-ac9f-138c2a332538
+                        counter: 0
+                        count: false
+                        Trigger: ref!! cfffa568-35ea-4727-befd-4eb3a8d78edc
+        -   Folder: Complex
+            Entity:
+                Id: 79b798e6-2b83-4716-8845-e569547eebb6
+                Name: Wall0x1x2
+                Components:
+                    b1adfbd8cb62aa4c82919737fe08e278: !TransformComponent
+                        Id: d8fbadb1-62cb-4caa-8291-9737fe08e278
+                        Position: {X: -19.5082874, Y: 2.0, Z: -4.99999952}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 7aac6559-0cef-4f23-b050-50a27353455f
+                Name: Floor2x0x1 (5)
+                Components:
+                    72ce75cffbba054ea36739f86952ea97: !TransformComponent
+                        Id: c7ba6115-eae3-410e-9b64-692e1c49f09d
+                        Position: {X: -17.50829, Y: 3.0, Z: -9.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.22571367, W: 0.9741937}
+                        Scale: {X: 1.2, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 9458f158-0780-4190-8bdc-13cf6ec9dd10
+                Name: CrossPiece
+                Components:
+                    15a29a60b35e08f8a13d31d4e14e4f09: !TransformComponent
+                        Id: 897cf0ec-2217-4df6-bd5c-a0db767bd404
+                        Position: {X: 11.192914, Y: -1.21005392, Z: 5.248749}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    62a0f735530daf978be5fd4d52d92abc: !ModelComponent
+                        Id: 9e065edb-a886-457f-9ff5-f76fb7e91b64
+                        Model: c59dc253-1230-42d9-8b36-1400d389c360:Models/ModularPath/CrossPiece
+                        Materials: {}
+                    06d8d4d9bc3742fdb5df0665a8a8dc49: !StaticColliderComponent
+                        Id: 9eb9e5a6-3c2a-4f52-bc12-f28d7c79bbc5
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            fcf1aec77ac0966585818a25a19fe49c: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: Complex
+            Entity:
+                Id: 9c0fa0b3-eaf4-4a9a-9631-51cf24b598a0
+                Name: Gate2x3x1 (2)
+                Components:
+                    ca59234fecc0cd47bf985102f77ddb7f: !TransformComponent
+                        Id: 4f2359ca-c0ec-47cd-bf98-5102f77ddb7f
+                        Position: {X: -19.50829, Y: 0.0, Z: -10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: 9cb7f348-4b35-49b5-bd45-a24e21c66c9b
+                Name: Floor2x0x1 (3)
+                Components:
+                    72ce75cffbba054ea36739f86952ea97: !TransformComponent
+                        Id: 34088d88-7808-4584-aef3-eb55de65b1eb
+                        Position: {X: -17.50829, Y: 3.0, Z: -7.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.22571367, W: 0.9741937}
+                        Scale: {X: 1.2, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: 9fcb117d-0f8e-4f9e-9dff-716e19869a78
+                Name: StraightPiece
+                Components:
+                    2a60eb5f5283a096f5b8e9b78d38e675: !TransformComponent
+                        Id: 609fd78d-b5c1-40c5-a0f9-011a77cdeb44
+                        Position: {X: 11.190608, Y: -1.20669711, Z: 8.89439}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.993165553, Y: 0.993165553, Z: 0.993165553}
+                        Children: {}
+                    38c0ef4df71deaa792815e4fe6932cf8: !ModelComponent
+                        Id: 3e5c00f1-b124-4c87-b4e0-cefe31e5f56e
+                        Model: 424044d3-a3ab-4bbb-bb85-2a3fb703ee72:Models/ModularPath/StraightPiece
+                        Materials: {}
+                    c47ed3d6ae4d30f070d69832b36adf9e: !StaticColliderComponent
+                        Id: f719ad41-c5bd-4dee-9518-d71bfe4633f1
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            3dc552c9fddff231775785ce6d07127d: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: Complex
+            Entity:
+                Id: a64c0c6e-a688-4a61-b889-9c8925a11157
+                Name: Wall0x2x2Window
+                Components:
+                    04b9812a7f20ce4486c686110d3172ad: !TransformComponent
+                        Id: 7f522506-fb54-4380-8f7a-3ee15d41e07a
+                        Position: {X: -19.50829, Y: 0.0, Z: -5.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: a7564c4c-7704-4354-a353-9207a2232954
+                Name: CameraTarget
+                Components:
+                    39d4bdb202782a41869f2a6d53da4edf: !TransformComponent
+                        Id: b2bdd439-7802-412a-869f-2a6d53da4edf
+                        Position: {X: 0.0, Y: 1.65, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -8.121798E-09, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a116d811cab5bf4da5211050e1d34e10: ref!! 11d816a1-b5ca-4dbf-a521-1050e1d34e10
+        -   Entity:
+                Id: a7b68422-0fb4-45c9-b853-8e17a08a3953
+                Name: Camera
+                Components:
+                    a116d811cab5bf4da5211050e1d34e10: !TransformComponent
+                        Id: 11d816a1-b5ca-4dbf-a521-1050e1d34e10
+                        Position: {X: 0.848, Y: -0.703, Z: 2.88556552}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1fb7d1656248fc4eb7c13c9d933979c7: !CameraComponent
+                        Id: 65d1b71f-4862-4efc-b7c1-3c9d933979c7
+                        Name: Camera
+                        Projection: Perspective
+                        VerticalFieldOfView: 30.0
+                        NearClipPlane: 1.5
+                        FarClipPlane: 100.0
+                        AspectRatio: 2.5
+                        Slot: 9aeac611-d1f6-46da-a235-e20cc154e170
+                    ffa60e26b0d3139488ddc809cf49071b: !ThirdPersonPlatformer.Camera.ThirdPersonCamera,ThirdPersonPlatformer.Game
+                        Id: ddc9fbcf-5ff9-4485-a284-e04ea2d27d8a
+                        DefaultDistance: 5.0
+                        MinimumDistance: 3.0
+                        ConeRadius: 0.0
+                        InvertX: false
+                        MinVerticalAngle: 0.0
+                        MaxVerticalAngle: 70.0
+                        InvertY: false
+                        RotationSpeed: 360.0
+                        VerticalSpeed: 45.0
+        -   Folder: Complex
+            Entity:
+                Id: ab8b22ae-d3d3-4f8b-86a1-5c8b17d23722
+                Name: Floor3x0x1 (2)
+                Components:
+                    93a2cc7593c91e4bb3d219974cf5bf94: !TransformComponent
+                        Id: 75cca293-c993-4b1e-b3d2-19974cf5bf94
+                        Position: {X: -18.50829, Y: 3.0, Z: -6.00000048}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: b22177fd-5f16-4f41-9be1-5864f2f70209
+                Name: StraightPiece
+                Components:
+                    2a60eb5f5283a096f5b8e9b78d38e675: !TransformComponent
+                        Id: 9328ec7e-2abf-4776-a4be-fe96aa765cce
+                        Position: {X: 11.190608, Y: -1.20669711, Z: 3.469657}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.993165553, Y: 0.993165553, Z: 0.993165553}
+                        Children: {}
+                    38c0ef4df71deaa792815e4fe6932cf8: !ModelComponent
+                        Id: ef458abc-aa08-4b58-a50f-97b3ca53bf95
+                        Model: 424044d3-a3ab-4bbb-bb85-2a3fb703ee72:Models/ModularPath/StraightPiece
+                        Materials: {}
+                    29b2f2277c345b7d58fb1a93334f48c4: !StaticColliderComponent
+                        Id: d0d812c2-f754-478b-b954-ece1ac9ca4fc
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            c56948f23cdaf08cff89c4ba027a40eb: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: b3db5fe0-7480-4b02-a7ae-65a1e1d2c049
+                Name: StraightPiece
+                Components:
+                    2a60eb5f5283a096f5b8e9b78d38e675: !TransformComponent
+                        Id: 4fb25c03-8d92-45c6-9d31-2b3230aac994
+                        Position: {X: 11.190608, Y: -1.20669711, Z: 7.02539063}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.993165553, Y: 0.993165553, Z: 0.993165553}
+                        Children: {}
+                    38c0ef4df71deaa792815e4fe6932cf8: !ModelComponent
+                        Id: 525358d5-472c-47a1-971c-1c03b9b4c9f2
+                        Model: 424044d3-a3ab-4bbb-bb85-2a3fb703ee72:Models/ModularPath/StraightPiece
+                        Materials: {}
+                    8177ab7bfc75fc3039a9ed86dbd71365: !StaticColliderComponent
+                        Id: 2206f4a8-66b8-4c68-bc58-d63638d486cf
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            06ece5d3bb42932683c9e77b21c876e9: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: badd485b-7bb5-44cf-803b-323860501417
+                Name: Collision
+                Components:
+                    56daa7dbb099df37ed05edb49418835b: !TransformComponent
+                        Id: ec8b2bed-b819-4965-a979-7c90d31c576b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    b1ac7a4aaf39d2afaa0a5a65e965a47e: !StaticColliderComponent
+                        Id: b02675d6-2807-422f-9575-13e0bbb87b12
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            73fdbcc2f339f69a32a3d353915b57d1: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: Complex
+            Entity:
+                Id: c58ce3b1-05ef-4414-9fdf-474e42deb8e5
+                Name: Stairs1x1x2
+                Components:
+                    a831269dece8af4ea9a25d18ffdfa408: !TransformComponent
+                        Id: 9d2631a8-e8ec-4eaf-a9a2-5d18ffdfa408
+                        Position: {X: -20.50829, Y: 0.0, Z: -1.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: d0712ec2-3a44-4360-8739-9a351e1843f4
+                Name: Floor3x0x1
+                Components:
+                    93a2cc7593c91e4bb3d219974cf5bf94: !TransformComponent
+                        Id: e6f4eaaf-39e7-486e-9799-471bfd4a0039
+                        Position: {X: -19.50829, Y: 3.0, Z: -6.00000048}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: d2c94ef5-0eff-430c-b39c-82088ac927cf
+                Name: Wall0x2x2 (2)
+                Components:
+                    7f760605c680f54b9c16df54c2068a80: !TransformComponent
+                        Id: b6df9e1a-e2cc-4df9-99bf-455eb12685a8
+                        Position: {X: -15.5082884, Y: 0.0, Z: -7.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: d3903eba-10c6-4a0d-b363-b308c21154c6
+                Name: Floor2x0x1 (2)
+                Components:
+                    72ce75cffbba054ea36739f86952ea97: !TransformComponent
+                        Id: ac3da568-c548-4862-9b8e-116c049523ac
+                        Position: {X: -17.50829, Y: 3.0, Z: -6.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: -0.22571367, W: 0.9741937}
+                        Scale: {X: 1.2, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: d8a09c83-e654-4152-8994-ba56d799b185
+                Name: StraightPiece
+                Components:
+                    bc3795a43835e86138bf65f9214dc97a: !TransformComponent
+                        Id: 03d2885a-4acb-49c8-8e7f-ba1a873e3e3d
+                        Position: {X: 9.409566, Y: -1.21755958, Z: 5.253866}
+                        Rotation: {X: 0.0, Y: -0.704459369, Z: 0.0, W: 0.709744334}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6d8388c73371bed66e9ab9a4ebd2ba97: !ModelComponent
+                        Id: 052027fd-48a7-4e25-85cd-e226c3a77ba7
+                        Model: 424044d3-a3ab-4bbb-bb85-2a3fb703ee72:Models/ModularPath/StraightPiece
+                        Materials: {}
+                    4e746aaa3bcfccecd2d64e603c7cdd55: !StaticColliderComponent
+                        Id: 2139af5c-0162-4167-b975-f01b51a86d03
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            dc09486c9832cefda2321e7f45185a61: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Entity:
+                Id: e041e665-763b-465d-8f55-206b40664043
+                Name: BoxF
+                Components:
+                    c863eba77d3aab785a570eb1c0c377f4: !TransformComponent
+                        Id: 96c5a0f9-6c69-42be-835e-437bab54cc36
+                        Position: {X: 0.419739, Y: -0.261381119, Z: 6.956375}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            06eedf8b31fcca541a32b052c92d2202: ref!! ec8b2bed-b819-4965-a979-7c90d31c576b
+                    6e53c28b12fb50b69d547dec0daeef79: !ModelComponent
+                        Id: 3a139b1c-62c8-4038-822f-46b1f8a06a53
+                        Model: 0abf7f02-2c72-4c82-9ec9-030cf475055a:Models/BoxF
+                        Materials: {}
+                    f4e3dadffef7c930c426291a2ff5b44c: !StaticColliderComponent
+                        Id: bec9e4fd-a663-4e29-921a-56eda78be188
+                        CollisionGroup: CustomFilter2
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: true
+                        ColliderShapes:
+                            93b4e965701c36c3a53bb6726ad34a98: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                    48399c6e875620eb63e9949681ade399: !TopDownRPG2.Gameplay.CrateScript,ThirdPersonPlatformer.Game
+                        Id: 587a2a00-2708-4c88-b8be-f6351fd4eccb
+                        CoinGetEffect: null
+                        CoinSpawnModel: null
+                        SoundEffect: null
+                        Trigger: ref!! 5e77644c-dac7-41b1-8f4c-1f5c4b9c3b0f
+                    33c867e0cc4218ce6b39d6cc93729b8b: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
+                        Id: 5e77644c-dac7-41b1-8f4c-1f5c4b9c3b0f
+                        TriggerCondition: StartOnly
+        -   Folder: GlobalLights
+            Entity:
+                Id: e1d761e6-634d-4773-8d81-75dfc8e8b1c4
+                Name: Skybox
+                Components:
+                    6e987687711b70418c85dff5a9bbc2ec: !TransformComponent
+                        Id: 8776986e-1b71-4170-8c85-dff5a9bbc2ec
+                        Position: {X: -10.5082884, Y: 15.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    197b9ba9a8d24847a1b8d7261d35f329: !LightComponent
+                        Id: a99b7b19-d2a8-4748-a1b8-d7261d35f329
+                        Type: !LightSkybox
+                            Skybox: 22670987-0598-46e9-aa11-93050f44ff75:Skybox
+                        Intensity: 1.5
+                    f6397b90285248a39a30d9f6245a9f87: !BackgroundComponent
+                        Id: 9f228b57-0a04-437b-a78c-3f3a93f80d26
+                        Texture: 37c0d0ab-19ae-4950-8419-697e89f66f81:Skybox Texture
+                        Intensity: 5.0
+        -   Folder: Complex
+            Entity:
+                Id: e21d03c7-0a0e-4a4f-b1d8-4c56eb866706
+                Name: Gate1x2x1
+                Components:
+                    1d13d29672d69b46a13d2c0de0fcde86: !TransformComponent
+                        Id: 96d2131d-d672-469b-a13d-2c0de0fcde86
+                        Position: {X: -16.50829, Y: 0.0, Z: -10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: e4cc5cfa-9eaa-41f8-89c3-cb2f06931988
+                Name: EndPiece
+                Components:
+                    ba93cf917aa3157b0bfd3fc33b83fc6e: !TransformComponent
+                        Id: dd16690f-fdce-4195-a7b0-84843b8d4824
+                        Position: {X: 5.55845356, Y: -1.2290926, Z: 5.28744125}
+                        Rotation: {X: 0.0, Y: 0.7087364, Z: 0.0, W: 0.705473363}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    190cbb29ac605c0c35015417aae9f049: !ModelComponent
+                        Id: 2f40bb1d-d20e-469c-b89a-a0e57a5f2375
+                        Model: 73bd90a0-2690-4110-8f47-c4f7cabcf829:Models/ModularPath/EndPiece
+                        Materials: {}
+                    d02b5f56f499dd4ad00d3c7287603e60: !StaticColliderComponent
+                        Id: b7f785f9-7099-4ad9-8784-58ae316cd679
+                        CanSleep: false
+                        Restitution: 0.0
+                        Friction: 0.5
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        ColliderShapes:
+                            abff8b30dd17a8532172a24550cf1bb8: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 0.1, Z: 2.0}
+                                LocalOffset: {X: 0.0, Y: 0.5, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+        -   Folder: Complex
+            Entity:
+                Id: e7333388-1c34-4faa-8464-8215dc13712b
+                Name: Box3x1x1 (5)
+                Components:
+                    2e77599b7bed2549939761e3d807b5aa: !TransformComponent
+                        Id: 737e8633-3eb2-4694-b9ca-c7eb28006061
+                        Position: {X: -20.50829, Y: 2.0, Z: -7.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Folder: Complex
+            Entity:
+                Id: efb97a37-10f1-49c7-8354-8273cba19f53
+                Name: Box3x1x1 (4)
+                Components:
+                    2e77599b7bed2549939761e3d807b5aa: !TransformComponent
+                        Id: 059cf52c-a1aa-4079-8f59-049f534406c0
+                        Position: {X: -20.50829, Y: 1.0, Z: -7.0}
+                        Rotation: {X: 0.0, Y: 0.707106769, Z: 0.0, W: 0.707106769}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}

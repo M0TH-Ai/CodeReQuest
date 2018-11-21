@@ -1,0 +1,7 @@
+!Texture
+Id: 98f3e00c-ddc0-4c17-9eca-63ddc346f4ed
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../../Models/Characters/OLDSeirra/Textures/Seirra_Pants_BaseColor.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

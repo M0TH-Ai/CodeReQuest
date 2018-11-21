@@ -1,6 +1,0 @@
-!Texture
-Id: 46b2a7ef-02fc-4c35-b0c6-ee87e07f4585
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Hair_Height.png
-Type: !GrayscaleTextureType {}

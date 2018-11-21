@@ -1,7 +1,0 @@
-!Texture
-Id: c933fb49-ee14-4931-a5c9-c6bfb543940a
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/EndPiece/EndPiece_BaseColor.png
-Type: !ColorTextureType
-    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

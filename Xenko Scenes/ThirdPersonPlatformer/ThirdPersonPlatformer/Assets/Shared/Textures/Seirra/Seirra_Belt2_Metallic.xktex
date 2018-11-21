@@ -1,6 +1,0 @@
-!Texture
-Id: db55c09e-1901-4596-8fb2-ef682fee3a1d
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Belt2_Metallic.png
-Type: !GrayscaleTextureType {}

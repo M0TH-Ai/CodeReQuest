@@ -1,6 +1,0 @@
-!Texture
-Id: 2a4e30fd-a9e8-456f-bb6d-17046ebf288b
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Blade_Height.png
-Type: !GrayscaleTextureType {}

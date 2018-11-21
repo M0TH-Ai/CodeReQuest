@@ -1,6 +1,0 @@
-!Texture
-Id: f1a25c15-96bf-4b8a-9211-fca762c475ea
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Characters/Seirra/Textures/Seirra_Boots_Height.png
-Type: !GrayscaleTextureType {}

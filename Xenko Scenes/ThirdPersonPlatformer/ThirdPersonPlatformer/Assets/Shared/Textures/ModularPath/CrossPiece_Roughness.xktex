@@ -1,6 +1,0 @@
-!Texture
-Id: e846d11c-19b8-4835-b405-d1763d275384
-SerializedVersion: {Xenko: 2.0.0.0}
-Tags: []
-Source: ../../../../../../../Models/Props/ModularPath/CrossPiece/CrossPiece_Roughness.png
-Type: !GrayscaleTextureType {}
