@@ -1,8 +1,8 @@
 !GameSettingsAsset
 Id: e4ef48b8-5ac0-4508-b424-08fb091fde2f
-SerializedVersion: {Xenko: 2.1.0.3}
+SerializedVersion: {Xenko: 3.1.0.1}
 Tags: []
-DefaultScene: a4e4f348-e9fc-4eb9-b7c9-35523586650a:StartScene
+DefaultScene: 13e1605f-4fc9-4e6b-b733-9e862034d38a:MainScene
 GraphicsCompositor: 2db74294-8b20-4ba0-9db2-60bcb7a1454e:GraphicsCompositor
 Defaults:
     - !Xenko.Graphics.RenderingSettings,Xenko.Graphics
@@ -12,7 +12,6 @@ Defaults:
         DefaultGraphicsProfile: Level_11_0
         ColorSpace: Linear
         DisplayOrientation: LandscapeRight
-        PreferredGraphicsPlatform: Default
     - !Xenko.Assets.EditorSettings,Xenko.Assets
         RenderingMode: HDR
     - !Xenko.Assets.Textures.TextureSettings,Xenko.Assets
@@ -37,7 +36,7 @@ Defaults:
             DetailSamplingDistance: 6.0
             MaxDetailSamplingError: 1.0
         Groups: []
-    - !Xenko.Streaming.StreamingSettings,Xenko.Engine
+    - !Xenko.Streaming.StreamingSettings,Xenko.Rendering
         ManagerUpdatesInterval: 0:00:00:00.0330000
         ResourceLiveTimeout: 0:00:00:08.0000000
 Overrides: []

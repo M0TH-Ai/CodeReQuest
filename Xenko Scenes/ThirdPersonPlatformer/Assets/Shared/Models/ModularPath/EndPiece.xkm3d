@@ -2,7 +2,7 @@
 Id: 73bd90a0-2690-4110-8f47-c4f7cabcf829
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: ../../../../../../Models/Props/ModularPath/EndPiece.fbx
+Source: !file ../../../../../../Models/Props/ModularPath/EndPiece.fbx
 Skeleton: null
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Materials:
@@ -16,4 +16,4 @@ Materials:
             Material: 7e4a37c5-ddfc-4930-9b25-498bc3cd58e9:Models/ModularPath/EndPieceMat
 Modifiers: {}
 ~SourceHashes:
-    6ddc8da59bdb81571801bcade06cb0eb~../../../../../../Models/Props/ModularPath/EndPiece.fbx: 00000000000000000000000000000000
+    6ddc8da59bdb81571801bcade06cb0eb~../../../../../../Models/Props/ModularPath/EndPiece.fbx: e38e3eafa060c7b4b5284861f5c4fa0a

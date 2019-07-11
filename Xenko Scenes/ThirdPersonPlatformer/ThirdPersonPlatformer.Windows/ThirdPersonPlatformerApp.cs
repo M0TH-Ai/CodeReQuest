@@ -1,6 +1,6 @@
 using Xenko.Engine;
 
-namespace ThirdPersonPlatformer
+namespace ThirdPersonPlatformer.Windows
 {
     class ThirdPersonPlatformerApp
     {

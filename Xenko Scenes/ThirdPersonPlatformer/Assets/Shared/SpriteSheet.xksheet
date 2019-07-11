@@ -6,18 +6,4 @@ Type: UI
 ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
 ColorKeyEnabled: true
 Packing: {}
-Sprites:
-    b665f53b077292a0fd5dab3e2ec34c72:
-        Source: ../../../../../UI/Interaction/Referances/Binary Blade.png
-        Name: Binary Blade
-        TextureRegion: {X: 0, Y: 0, Width: 1080, Height: 1920}
-        Center: {X: 0.0, Y: 0.0}
-        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
-        BorderColor: {R: 0, G: 0, B: 0, A: 0}
-    5e757f6b51ae26a6a92f59512d9644d1:
-        Source: ../../../../../UI/Interaction/Referances/BloodWeaver.png
-        Name: BloodWeaver
-        TextureRegion: {X: 0, Y: 0, Width: 1080, Height: 1920}
-        Center: {X: 0.0, Y: 0.0}
-        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
-        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+Sprites: {}

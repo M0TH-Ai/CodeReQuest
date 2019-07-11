@@ -1,0 +1,12 @@
+!SpriteFont
+Id: 913eb359-435d-4375-a9e0-bb4e187267e0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+FontSource: !FileFontProvider
+    Source: !file ../../../../UI/Interaction/Font/AndromedaTV.TTF
+FontType: !OfflineRasterizedSpriteFontType
+    CharacterSet: null
+    CharacterRegions:
+        9fd07f116f77e83f39149d697e7fb4e1:
+            Start: ' '
+            End: "\x7F"

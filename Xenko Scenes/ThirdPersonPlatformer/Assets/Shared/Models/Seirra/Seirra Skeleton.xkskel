@@ -2,7 +2,7 @@
 Id: a801b332-6484-45be-a0e7-ae4c1ab52d4b
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: ../../../../../../Models/Characters/OLDSeirra/Seirra.fbx
+Source: !file ../../../../../../Models/Characters/OLDSeirra/Seirra.fbx
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Nodes:
     e8e297c224c3cffd0f1672f0a4ca1547: {Name: RootNode, Depth: 0}
@@ -100,4 +100,4 @@ Nodes:
     d2c438e4be5e671e026e6ad1c006eea3: {Name: WaistBelt, Depth: 1}
     6b884e801628c0ce08aa93082be81afa: {Name: Belt, Depth: 1}
 ~SourceHashes:
-    91e4a1eebf3b3090b1b4d0c18c8f315c~../../../../../../Models/Characters/OLDSeirra/Seirra.fbx: 00000000000000000000000000000000
+    91e4a1eebf3b3090b1b4d0c18c8f315c~../../../../../../Models/Characters/OLDSeirra/Seirra.fbx: 42eb6d19cf6ee6f854bee278ec8f47f7

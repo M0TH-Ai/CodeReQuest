@@ -12,6 +12,8 @@ Hierarchy:
                 Id: 2bd16003-8e46-4898-bbbf-377ad9be3f57
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 40.1600037
+                Height: 22.9800014
                 HorizontalAlignment: Center
                 VerticalAlignment: Center
                 Margin: {}
@@ -20,9 +22,10 @@ Hierarchy:
                 MaximumDepth: 3.40282347E+38
                 Name: startgame
                 Text: Start
-                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:XenkoDefaultFont
+                Font: 913eb359-435d-4375-a9e0-bb4e187267e0:SpriteFont
                 TextSize: 20.0
                 TextColor: {R: 240, G: 240, B: 240, A: 255}
+                TextAlignment: Center
         -   UIElement: !Button
                 Id: 7df69fd1-4836-4693-aa52-aa9eda8bc5da
                 DependencyProperties: {}
@@ -51,7 +54,11 @@ Hierarchy:
                 Id: bcb02efd-2ea0-4e3c-9690-8ecc5303510a
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Opacity: 0.72
                 Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
                 Children:
                     fb7807c42b5b90471cc7cdc4b49db02b: !Button ref!! 7df69fd1-4836-4693-aa52-aa9eda8bc5da
                 RowDefinitions: {}

@@ -2,7 +2,7 @@
 Id: d1193f50-2065-4a7a-88ef-5fa4c66b0fa0
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: ../../../../../../Models/Characters/OLDSeirra/Animation/Two Hand Sword Combo 2.fbx
+Source: !file ../../../../../../Models/Characters/OLDSeirra/Animation/Two Hand Sword Combo 2.fbx
 ClipDuration:
     Enabled: false
     StartAnimationTime: 0:00:00:00.0000000
@@ -16,4 +16,4 @@ PreviewModel: 47b065ba-1bc4-4b73-a8d4-60c89d91177e:Models/Seirra/Seirra_Player
 AnimationTimeMinimum: 0:00:00:00.0000000
 AnimationTimeMaximum: 0:00:00:01.6330000
 ~SourceHashes:
-    278be72078169448c2f33ea7b9888059~../../../../../../Models/Characters/OLDSeirra/Animation/Two Hand Sword Combo 2.fbx: 00000000000000000000000000000000
+    278be72078169448c2f33ea7b9888059~../../../../../../Models/Characters/OLDSeirra/Animation/Two Hand Sword Combo 2.fbx: 36849b05951575ed944dcc37356fe065

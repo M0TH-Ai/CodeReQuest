@@ -2,7 +2,7 @@
 Id: 44909e42-5b20-477a-9cf6-ef88ac0ad8b1
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: ../../../../../../Models/Props/ModularPath/LPiece.fbx
+Source: !file ../../../../../../Models/Props/ModularPath/LPiece.fbx
 Skeleton: null
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Materials:
@@ -16,4 +16,4 @@ Materials:
             Material: b4b06305-edc3-4dbc-b790-b4afab3e5e8b:Models/ModularPath/LPieceMat
 Modifiers: {}
 ~SourceHashes:
-    f0bb701cc831a4dc549212686d617dcc~../../../../../../Models/Props/ModularPath/LPiece.fbx: 00000000000000000000000000000000
+    f0bb701cc831a4dc549212686d617dcc~../../../../../../Models/Props/ModularPath/LPiece.fbx: 1bcfc02b58885ba950b48aae19826ae8

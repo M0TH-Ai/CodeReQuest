@@ -2,7 +2,7 @@
 Id: 0bdd47d4-0154-493b-85e1-ad4be70747f9
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: ../../../../../../Models/Props/ModularPath/TPiece.fbx
+Source: !file ../../../../../../Models/Props/ModularPath/TPiece.fbx
 Skeleton: null
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Materials:
@@ -16,4 +16,4 @@ Materials:
             Material: 016ffe20-fc39-4070-b987-6023989445ea:Models/ModularPath/CrossGrateMat
 Modifiers: {}
 ~SourceHashes:
-    4caa6b3bdd69765279324a00b90c7689~../../../../../../Models/Props/ModularPath/TPiece.fbx: 00000000000000000000000000000000
+    4caa6b3bdd69765279324a00b90c7689~../../../../../../Models/Props/ModularPath/TPiece.fbx: 41a84858cef3bfdd7145ffa5567a946a
