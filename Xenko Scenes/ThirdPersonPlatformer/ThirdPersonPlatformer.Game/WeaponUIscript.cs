@@ -21,7 +21,6 @@ namespace ThirdPersonPlatformer
         public Player.PlayerController player;
 
         private bool sierraActive = false;
-
         private bool syrikActive = false;
 
         public Entity currentWeapon;

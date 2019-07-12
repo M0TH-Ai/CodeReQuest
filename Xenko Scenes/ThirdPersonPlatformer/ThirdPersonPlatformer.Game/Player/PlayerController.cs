@@ -121,7 +121,7 @@ namespace ThirdPersonPlatformer.Player
 
             weaponUI.currentWeapon = sword;
 
-            //Jump();
+            Jump();
 
             animator.attackIdleOn = attacking;
 
