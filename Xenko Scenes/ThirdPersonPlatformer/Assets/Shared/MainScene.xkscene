@@ -108,6 +108,10 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
+                    2de80f02d54669ffb55abdf733604f74: !ModelComponent
+                        Id: 69e502d8-9881-44ee-8afc-0f07a1e869d0
+                        Model: 8ab063dc-e02a-4eaf-bccb-a98a37c82794:Models/Weapons/Syrik Sword
+                        Materials: {}
         -   Folder: GlobalLights
             Entity:
                 Id: 27a91eaf-7622-42b4-89a2-3495a753b8d9
@@ -528,7 +532,7 @@ Hierarchy:
                         weaponUI: ref!! cf5199b8-cdaf-4b00-a67c-578c8ce02c26
                         inputSystem: ref!! 6af69b80-69ef-4626-891c-293be4ca17b2
                         attacking: true
-                        quickattack: true
+                        quickattack: false
                         runningRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
                         player: ref!! 5fc52dcf-f9f8-4c6d-b32d-3fc989aea8ad
                         idleRotation: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
@@ -542,8 +546,8 @@ Hierarchy:
                         PunchCollision: ref!! 95f2df69-d194-438b-8190-dcf56a5f88e6
                     15c6f107adc2859dd75efaec51c3cffa: !ThirdPersonPlatformer.Player.PlayerInput,ThirdPersonPlatformer.Game
                         Id: 6af69b80-69ef-4626-891c-293be4ca17b2
-                        movementsystem: false
-                        moving: false
+                        movementsystem: true
+                        moving: true
                         weapon: ref!! cf5199b8-cdaf-4b00-a67c-578c8ce02c26
                         MouseSensitivity: 100.0
                         DeadZone: 0.5
