@@ -1,19 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Xenko.Core.Mathematics;
 using Xenko.Engine;
-using Xenko.Graphics;
-using Xenko.Rendering.Sprites;
 using Xenko.UI;
 using Xenko.UI.Controls;
-using Xenko.UI.Panels;
 using Xenko.Input;
-using Xenko.Engine.Events;
-using TopDownRPG2.Gameplay;
-using ThirdPersonPlatformer.Player;
 using Xenko.Physics;
 
 namespace ThirdPersonPlatformer
@@ -28,7 +18,9 @@ namespace ThirdPersonPlatformer
 
         public Entity Sierra;
 
-        public ThirdPersonPlatformer.Player.PlayerController player;
+        public Player.PlayerController player;
+
+        private bool sierraActive = false;
 
         private bool syrikActive = false;
 
@@ -42,15 +34,9 @@ namespace ThirdPersonPlatformer
 
         public bool switchleft = false;
         public bool switchright = false;
-        private readonly bool swithcdone = false;
 
-        public bool Startswitch { get; set; } = false;
-        public bool SierraActive { get; set; } = false;
-
-        public bool Swithcdone => swithcdone;
-
-        public bool SierraActive1 { get => this.SierraActive; set => this.SierraActive = value; }
-
+        public bool Startswitch  = false;
+        public bool Swithcdone = false;
         protected override void LoadScene()
         {
             // Allow user to resize the window with the mouse.
@@ -85,7 +71,7 @@ namespace ThirdPersonPlatformer
 
                     }
 
-                    if (gamepad.IsButtonPressed(GamePadButton.A) && SierraActive == true)
+                    if (gamepad.IsButtonPressed(GamePadButton.A) && sierraActive == true)
                     {
                         var sierra = SierraSword.Instantiate();
                         //sierra.RemoveRange(0, 1);

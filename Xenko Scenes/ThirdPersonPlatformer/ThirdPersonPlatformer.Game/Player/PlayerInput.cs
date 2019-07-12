@@ -7,7 +7,6 @@ using Xenko.Engine;
 using Xenko.Engine.Events;
 using Xenko.Input;
 using ThirdPersonPlatformer.Core;
-using ThirdPersonPlatformer.Player;
 
 namespace ThirdPersonPlatformer.Player
 {
