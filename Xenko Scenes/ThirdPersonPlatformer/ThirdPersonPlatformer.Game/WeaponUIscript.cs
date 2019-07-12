@@ -24,14 +24,11 @@ namespace ThirdPersonPlatformer
         private UIPage page;
 
         public Prefab SyrikSword;
-
         public Prefab SierraSword;
 
         public Entity Sierra;
 
         public ThirdPersonPlatformer.Player.PlayerController player;
-
-        private bool sierraActive = false;
 
         private bool syrikActive = false;
 
@@ -48,9 +45,11 @@ namespace ThirdPersonPlatformer
         private readonly bool swithcdone = false;
 
         public bool Startswitch { get; set; } = false;
-        public bool SierraActive { get => sierraActive; set => sierraActive = value; }
+        public bool SierraActive { get; set; } = false;
 
         public bool Swithcdone => swithcdone;
+
+        public bool SierraActive1 { get => this.SierraActive; set => this.SierraActive = value; }
 
         protected override void LoadScene()
         {

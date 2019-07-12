@@ -21,17 +21,17 @@ namespace ThirdPersonPlatformer.Player
         public static readonly EventKey<bool> IsGroundedEventKey = new EventKey<bool>();
 
         public static readonly EventKey<float> RunSpeedEventKey = new EventKey<float>();
-        
-         // The PlayerController will propagate if it is attacking to the AnimationController
+
+        // The PlayerController will propagate if it is attacking to the AnimationController
         public static readonly EventKey<bool> IsAttackingEventKey = new EventKey<bool>();
-        
+
         public static readonly EventKey<bool> IsAttackingEventKey2 = new EventKey<bool>();
-        
+
         public static readonly EventKey<bool> IsAttackingQuickEventKey = new EventKey<bool>();
 
         public static readonly EventKey<bool> IsAttackIdleEventKey = new EventKey<bool>();
-        
-        
+
+
         [Display("Attack Distance")]
         public float AttackDistance { get; set; } = 1f;
 
@@ -40,7 +40,7 @@ namespace ThirdPersonPlatformer.Player
         /// </summary>
         [Display("Attack Cooldown")]
         public float AttackCooldown { get; set; } = 0.65f;
-        
+
         // This component is the physics representation of a controllable character
         private CharacterComponent character;
         private Entity modelChildEntity;
@@ -53,14 +53,14 @@ namespace ThirdPersonPlatformer.Player
         private readonly EventReceiver<Vector3> moveDirectionEvent = new EventReceiver<Vector3>(PlayerInput.MoveDirectionEventKey);
 
         private readonly EventReceiver<bool> jumpEvent = new EventReceiver<bool>(PlayerInput.JumpEventKey);
-        
+
         private readonly Entity attackEntity = null;
         private float attackCooldown = 0f;
-        
+
         public float MaxShootDistance { get; set; } = 2f;
-        
+
         public float ShootImpulse { get; set; } = 5f;
-        
+
         public WeaponUIscript weaponUI;
         public PlayerInput inputSystem;
 
@@ -84,7 +84,7 @@ namespace ThirdPersonPlatformer.Player
 
         // Allow some inertia to the movement
         private Vector3 moveDirection = Vector3.Zero;
-        
+
         // Attacking
         [Display("Punch Collision")]
         public RigidbodyComponent PunchCollision { get; set; }
@@ -99,13 +99,13 @@ namespace ThirdPersonPlatformer.Player
         public Entity AttackEntity3 => attackEntity;
 
         public bool attacking;
-        
+
         public bool quickattack;
-        
+
         public Quaternion runningRotation;
-        
+
         public Entity player;
-        
+
         public Quaternion idleRotation;
 
 
@@ -115,57 +115,49 @@ namespace ThirdPersonPlatformer.Player
         public override void Start()
         {
             base.Start();
-            
+
             //this.GetSimulation().ColliderShapesRendering = true;
 
             jumpReactionRemaining = JumpReactionThreshold;
 
             // Will search for an CharacterComponent within the same entity as this script
             character = Entity.Get<CharacterComponent>();
-            if (character == null) throw new ArgumentException("Please add a CharacterComponent to the entity containing PlayerController!");
+           if (character == null) throw new ArgumentException("Please add a CharacterComponent to the entity containing PlayerController!");
+            {
+                modelChildEntity = Entity.GetChild(0);
 
-            modelChildEntity = Entity.GetChild(0);
+                if (attacking == true && inputSystem.moving == true)
+            
+            sword.Get<TransformComponent>().Rotation = runningRotation;
+            sword.Get<TransformComponent>().Position = new Vector3(-0.250f, 0.085f, 0.027f);
+
+                if (attacking == false)
+                    sword.Get<TransformComponent>().Rotation = idleRotation;
+            sword.Get<TransformComponent>().Position = new Vector3(0.316f, 0.085f, 0.027f);
+ 
+            }
             
             PunchCollision.Enabled = false;
+            //Input.Enabled = true;
             sword.Get<ModelNodeLinkComponent>().NodeName = "Hips";
-            sword.Get<TransformComponent>().Position = new Vector3(-0.026f,0,-0.147f);
-            sword.Transform.Scale = new Vector3(1f,1f,1f);
-            AnimationComponent = Entity.Get<AnimationComponent>();
-        }
+            sword.Get<TransformComponent>().Position = new Vector3(-0.026f, 0, -0.147f);
+            sword.Transform.Scale = new Vector3(1f, 1f, 1f);
 
+
+
+        } 
         /// <summary>
         /// Called on every frame update
         /// </summary>
         public override void Update()
         {
             // var dt = Game.UpdateTime.Elapsed.Milliseconds * 0.001;
-            var dt = (float) Game.UpdateTime.Elapsed.Seconds;
+            var dt = (float)Game.UpdateTime.Elapsed.Seconds;
             Move(MaxRunSpeed);
-            
-            weaponUI.currentWeapon = sword;
 
             Jump();
-            
-            if(attacking == true && inputSystem.moving == true)
-            {
-                sword.Get<TransformComponent>().Rotation = runningRotation;
-                sword.Get<TransformComponent>().Position = new Vector3(-0.250f,0.085f,0.027f);
-            }
-            else
-            {
-                sword.Get<TransformComponent>().Rotation = idleRotation;
-                sword.Get<TransformComponent>().Position = new Vector3(0.316f,0.085f,0.027f);
-            }
-            
-            if(attacking == false){
-            PunchCollision.Enabled = false;
-            //Input.Enabled = true;
-            sword.Get<ModelNodeLinkComponent>().NodeName = "Hips";
-            sword.Get<TransformComponent>().Position = new Vector3(-0.026f,0,-0.147f);
-            sword.Transform.Scale = new Vector3(1f,1f,1f);
-
-            }
         }
+
 
         /// <summary>
         /// Jump makes the character jump and also accounts for the player's reaction time, making jumping feel more natural by
@@ -174,8 +166,8 @@ namespace ThirdPersonPlatformer.Player
         private void Jump()
         {
             var dt = this.GetSimulation().FixedTimeStep;
-            
-            
+
+
 
             // Check if conditions allow the character to jump
             if (JumpReactionThreshold <= 0)
@@ -227,7 +219,7 @@ namespace ThirdPersonPlatformer.Player
             moveDirectionEvent.TryReceive(out Vector3 newMoveDirection);
 
             // Allow very simple inertia to the character to make animation transitions more fluid
-            moveDirection = moveDirection*0.85f + newMoveDirection *0.15f;
+            moveDirection = moveDirection * 0.85f + newMoveDirection * 0.15f;
 
             character.SetVelocity(moveDirection * speed);
 
@@ -237,47 +229,47 @@ namespace ThirdPersonPlatformer.Player
             // Character orientation
             if (moveDirection.Length() > 0.001)
             {
-                yawOrientation = MathUtil.RadiansToDegrees((float) Math.Atan2(-moveDirection.Z, moveDirection.X) + MathUtil.PiOverTwo);
+                yawOrientation = MathUtil.RadiansToDegrees((float)Math.Atan2(-moveDirection.Z, moveDirection.X) + MathUtil.PiOverTwo);
             }
             modelChildEntity.Transform.Rotation = Quaternion.RotationYawPitchRoll(MathUtil.DegreesToRadians(yawOrientation), 0, 0);
         }
-        
-         public void Attack()
+
+        public void Attack()
         {
-            var dt = (float) Game.UpdateTime.Elapsed.TotalSeconds;
+            var dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
             attackCooldown = (attackCooldown > 0) ? attackCooldown - dt : 0f;
 
             //PunchCollision.Enabled = (attackCooldown > 0);
-            
-            if(attacking == true && quickattack == false)
+
+            if (attacking == true && quickattack == false)
             {
-            quickattack = true;
-            IsAttackingEventKey.Broadcast(true);
-          }
-          else
-          {
-            QuickAttack();
-          }
+                quickattack = true;
+                IsAttackingEventKey.Broadcast(true);
+            }
+            else
+            {
+                QuickAttack();
+            }
         }
-        
+
         public void QuickAttack()
         {
-            var dt = (float) Game.UpdateTime.Elapsed.TotalSeconds;
+            var dt = (float)Game.UpdateTime.Elapsed.TotalSeconds;
             attackCooldown = (attackCooldown > 0) ? attackCooldown - dt : 0f;
             //PunchCollision.Enabled = (attackCooldown > 0);
-           
-           if(quickattack == true)
-           {
-           IsAttackingQuickEventKey.Broadcast(true);
-           MoveForwards();
-           quickattack = false;
-           }
-           
-          }
+
+            if (quickattack == true)
+            {
+                IsAttackingQuickEventKey.Broadcast(true);
+                MoveForwards();
+                quickattack = false;
+            }
+
+        }
 
         public void SetAttack()
-        {             
-            if(attacking == true)
+        {
+            if (attacking == true)
             {
                 attacking = false;
                 IsAttackIdleEventKey.Broadcast(false);
@@ -289,18 +281,18 @@ namespace ThirdPersonPlatformer.Player
                 attacking = true;
                 IsAttackIdleEventKey.Broadcast(true);
                 sword.Get<ModelNodeLinkComponent>().NodeName = "RightHand";
-                sword.Get<TransformComponent>().Position = new Vector3(0.395f,0.085f,0.027f);
+                sword.Get<TransformComponent>().Position = new Vector3(0.395f, 0.085f, 0.027f);
             }
-       }
-       
-       public void MoveForwards()
-       {
-            player.Transform.Position += new Vector3(0,5,0);
-       }
+        }
+
+        public void MoveForwards()
+        {
+            player.Transform.Position += new Vector3(0, 5, 0);
+        }
 
         public void AddAnimationStates(AnimationState state)
         {
-           animationStates.Enqueue(state);
+            animationStates.Enqueue(state);
         }
     }
 }

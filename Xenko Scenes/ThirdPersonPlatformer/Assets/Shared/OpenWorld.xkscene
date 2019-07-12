@@ -43,6 +43,7 @@ Hierarchy:
                         switchright: false
                         Startswitch: false
                         SierraActive: false
+                        SierraActive1: false
                     0af57a81d308d7bceafaafe52ef4c1d5: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
                         Id: 293dced7-cead-4162-b980-2fd8caeeef39
                         TriggerCondition: StartOnly
