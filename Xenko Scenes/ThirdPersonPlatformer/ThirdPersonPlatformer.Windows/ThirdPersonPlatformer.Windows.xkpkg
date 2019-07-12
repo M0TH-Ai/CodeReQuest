@@ -2,7 +2,7 @@
 SerializedVersion: {Assets: 3.1.0.0}
 Meta:
     Name: ThirdPersonPlatformer.Windows
-    Version: 1.0.0.0
+    Version: 1.0.0
     Authors: []
     Owners: []
     Dependencies: null
@@ -14,4 +14,6 @@ OutputGroupDirectories: {}
 ExplicitFolders: []
 Bundles: []
 TemplateFolders: []
-RootAssets: []
+RootAssets:
+    - 123ba9a3-bb53-4ed1-9278-296857eefa51:Models/Weapons/SyrikPrefab
+    - 9b7440ad-8afb-4695-81fa-e6999d6d482c:Models/Weapons/SierraPrefab

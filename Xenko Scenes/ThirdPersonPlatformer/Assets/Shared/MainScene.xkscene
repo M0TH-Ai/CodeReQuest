@@ -104,7 +104,7 @@ Hierarchy:
                 Components:
                     94735268333c4956acc977441bb8ec61: !TransformComponent
                         Id: 45976114-65e7-47a0-9313-53c025b92ee0
-                        Position: {X: 13.24957, Y: 0.199305624, Z: 5.231058}
+                        Position: {X: 13.24957, Y: -0.100083172, Z: 5.231058}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -146,18 +146,9 @@ Hierarchy:
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     71c329ef4610d5615c6f5f0f5131020f: !ModelComponent
-                        Id: 6cf30c07-e1d2-412a-9f94-e02de0242f55
+                        Id: 7dd11775-76fd-4024-b945-1672bdfba06f
                         Model: 0fb0815a-e476-4a3e-8a0a-ee43ab767bc8:Models/ModularPath/WeaponBase_LP_split
                         Materials: {}
-                    9c485f936fa9e9a00b1b7058bae91e80: !UIComponent
-                        Id: 036f18ed-a712-43de-9992-b6ca88457ced
-                        Enabled: false
-                        Page: a9f761cf-29e6-4a13-84d6-5e2c1f2544c3:Page_2
-                        Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
-                        Size: {X: 1.0, Y: 1.0, Z: 1.0}
-                    0af57a81d308d7bceafaafe52ef4c1d5: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
-                        Id: d8438190-6ec6-40e7-8267-11b463ee5312
-                        TriggerCondition: StartOnly
                     e34cc1e6a4a5b8f4c9b04808dda9991b: !StaticColliderComponent
                         Id: 0e44fc5c-1b6a-47b2-87c1-dd359543244e
                         CanSleep: false
@@ -188,9 +179,21 @@ Hierarchy:
                                 Size: {X: 1.0, Y: 3.0, Z: 1.0}
                                 LocalOffset: {X: -3.0, Y: 0.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
-                    cd2e20b318c1b652496632cdf7eb4e65: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
-                        Id: d4b95f0a-26fc-4ebc-acd5-66c9d5727085
-                        TriggerCondition: EndOnly
+                    60961e006011209281e9780e452f9693: !ThirdPersonPlatformer.WeaponUIscript,ThirdPersonPlatformer.Game
+                        Id: cf5199b8-cdaf-4b00-a67c-578c8ce02c26
+                        SyrikSword: 123ba9a3-bb53-4ed1-9278-296857eefa51:Models/Weapons/SyrikPrefab
+                        SierraSword: 9b7440ad-8afb-4695-81fa-e6999d6d482c:Models/Weapons/SierraPrefab
+                        Sierra: ref!! 5fc52dcf-f9f8-4c6d-b32d-3fc989aea8ad
+                        player: ref!! 94a122f7-1696-4669-a5d2-6eaf23d2ae03
+                        currentWeapon: ref!! 414a7e4e-36e4-4148-8bab-68ee3e7e4ed5
+                        idleSyrik: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        runningSyrik: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        idleSierra: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        runningSierra: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+                        switchleft: false
+                        switchright: true
+                        Startswitch: false
+                        Swithcdone: false
         -   Folder: Complex
             Entity:
                 Id: 2b707cf8-8c33-4fdf-a95e-1d9033fc671a
@@ -291,7 +294,7 @@ Hierarchy:
                         Materials: {}
                     b36392aa577b77c7ec87f074bf0cf5e7: !ModelNodeLinkComponent
                         Id: 4c7061ab-0a8e-4c66-ab4f-eeba86560a15
-                        Target: null
+                        Target: ref!! 2c90a40f-c257-42de-8808-e383912863ea
                         NodeName: RightHand
                     1133caf181a1d9b963b6dc4848b399a7: !RigidbodyComponent
                         Id: 95f2df69-d194-438b-8190-dcf56a5f88e6
@@ -407,9 +410,6 @@ Hierarchy:
                         AnimationQuickAttack: bcec4659-4536-4978-9ca4-e90554530b35:Animations/Seirra/Standing Melee Attack Horizontal
                         AnimationAIdle: 021f9f93-e011-46c1-b26b-a0c600883fd3:Animations/Seirra/Weapon Idle
                         TimeFactor: 1.0
-                    89fb3590a164800f3b7abd370d486793: !AnimationComponent
-                        Id: 58400900-b32c-4bf7-b5a9-db6cfb20a858
-                        Animations: {}
         -   Entity:
                 Id: 52ea316a-f054-4f92-94ca-43e0cc035f3c
                 Name: EndPiece
@@ -524,35 +524,27 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     8074e66c6311c0c300fb1348fea37ac4: !ThirdPersonPlatformer.Player.PlayerController,ThirdPersonPlatformer.Game
                         Id: 94a122f7-1696-4669-a5d2-6eaf23d2ae03
-                        animations: null
-                        animationStates: {}
-                        animationComponent: null
-                        IsPlaying: false
                         sword: ref!! 414a7e4e-36e4-4148-8bab-68ee3e7e4ed5
-                        weaponUI: null
+                        weaponUI: ref!! cf5199b8-cdaf-4b00-a67c-578c8ce02c26
                         inputSystem: ref!! 6af69b80-69ef-4626-891c-293be4ca17b2
-                        attacking: false
+                        attacking: true
                         quickattack: true
                         runningRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
                         player: ref!! 5fc52dcf-f9f8-4c6d-b32d-3fc989aea8ad
                         idleRotation: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
                         MaxRunSpeed: 10.0
+                        animator: ref!! faab8e97-45ac-4d3f-9375-495d32bc299f
                         AttackDistance: 8.0
                         AttackCooldown: 1.0
                         MaxShootDistance: 2.0
                         ShootImpulse: 5.0
                         JumpReactionThreshold: 1.0
                         PunchCollision: ref!! 95f2df69-d194-438b-8190-dcf56a5f88e6
-                        AnimationComponent: null
-                        AttackEntity: null
-                        AttackEntity1: null
-                        AttackEntity2: null
-                        AttackEntity3: null
                     15c6f107adc2859dd75efaec51c3cffa: !ThirdPersonPlatformer.Player.PlayerInput,ThirdPersonPlatformer.Game
                         Id: 6af69b80-69ef-4626-891c-293be4ca17b2
                         movementsystem: false
                         moving: false
-                        weapon: null
+                        weapon: ref!! cf5199b8-cdaf-4b00-a67c-578c8ce02c26
                         MouseSensitivity: 100.0
                         DeadZone: 0.5
                         Camera: ref!! 65d1b71f-4862-4efc-b7c1-3c9d933979c7
