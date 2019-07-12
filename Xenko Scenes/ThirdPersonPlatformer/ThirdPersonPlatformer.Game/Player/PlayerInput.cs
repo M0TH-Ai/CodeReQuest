@@ -34,7 +34,7 @@ namespace ThirdPersonPlatformer.Player
         
         public bool moving = false;
         
-        public WeaponUIscript.weapon;
+        public WeaponUIscript weapon;
         
         /// <summary>
         /// Multiplies move movement by this amount to apply aim rotations
