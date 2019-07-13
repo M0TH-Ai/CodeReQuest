@@ -32,7 +32,7 @@ Hierarchy:
                         Id: 7f6442b8-6259-439d-a0df-c3bbfb724382
                         SyrikSword: 123ba9a3-bb53-4ed1-9278-296857eefa51:Models/Weapons/SyrikPrefab
                         SierraSword: 9b7440ad-8afb-4695-81fa-e6999d6d482c:Models/Weapons/SierraPrefab
-                        Sierra: null
+                        Sierra: ref!! 4a983786-7812-4b89-80a5-717e92ce7e85
                         player: null
                         currentWeapon: null
                         idleSyrik: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
@@ -42,8 +42,7 @@ Hierarchy:
                         switchleft: false
                         switchright: false
                         Startswitch: false
-                        SierraActive: false
-                        SierraActive1: false
+                        Swithcdone: true
                     0af57a81d308d7bceafaafe52ef4c1d5: !TopDownRPG2.Gameplay.Trigger,ThirdPersonPlatformer.Game
                         Id: 293dced7-cead-4162-b980-2fd8caeeef39
                         TriggerCondition: StartOnly
@@ -118,10 +117,6 @@ Hierarchy:
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     d8f56173b066872d2fb0170dc7988e97: !ThirdPersonPlatformer.Player.PlayerController,ThirdPersonPlatformer.Game
                         Id: 37059e8f-1681-403b-ad3a-d9d00d9490e2
-                        animations: null
-                        animationStates: {}
-                        animationComponent: null
-                        IsPlaying: false
                         sword: ref!! a9f605f6-7fb9-453b-9503-4fc2b258ba34
                         weaponUI: ref!! 7f6442b8-6259-439d-a0df-c3bbfb724382
                         inputSystem: ref!! 407602f7-cee3-4114-897b-dca19e03d320
@@ -131,17 +126,13 @@ Hierarchy:
                         player: ref!! 4a983786-7812-4b89-80a5-717e92ce7e85
                         idleRotation: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
                         MaxRunSpeed: 8.0
+                        animator: ref!! a6185314-3168-4954-9c5f-02bd23f3a48f
                         AttackDistance: 8.0
                         AttackCooldown: 1.0
                         MaxShootDistance: 4.0
                         ShootImpulse: 5.0
                         JumpReactionThreshold: 0.2
                         PunchCollision: ref!! 28b38118-f055-489d-964e-d6b8e9522b6c
-                        AnimationComponent: null
-                        AttackEntity: null
-                        AttackEntity1: null
-                        AttackEntity2: null
-                        AttackEntity3: null
                     5e608fbb357a68303f4da5aae9ab39b7: !ThirdPersonPlatformer.Player.PlayerInput,ThirdPersonPlatformer.Game
                         Id: 407602f7-cee3-4114-897b-dca19e03d320
                         movementsystem: false
@@ -220,11 +211,11 @@ Hierarchy:
                         Children: {}
                     95b23bb25126e5ee9f9f68f1ab4f8a80: !ModelComponent
                         Id: fab58de3-4bc1-40d5-8721-7c8190dc1480
-                        Model: 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword
+                        Model: 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword/Seirra Sword
                         Materials:
-                            ea4ffb9f91e1d68efbd3a59c85ef3bcd~0: 09234db1-439c-4fd2-8913-41c975e4bd69:Models/Weapons/Seirra handle
-                            ba56479873a89d2db7a053c0f8a9808e~1: e9cc32cc-a918-4aad-84bd-6b3862ab4199:Models/Weapons/Seirra Shroud
-                            731b47c458fe83a93c9b5c9fe09908e7~2: b6e14bf0-386a-439b-a095-5a41e1004a4d:Models/Weapons/Seirra Blade
+                            ea4ffb9f91e1d68efbd3a59c85ef3bcd~0: 09efdebf-737e-45a0-adf8-926279c357c8:Models/Weapons/Seirra Sword/Handle
+                            ba56479873a89d2db7a053c0f8a9808e~1: 4619ba0a-c14d-42bd-9801-0abb7ec75804:Models/Weapons/Seirra Sword/Shroud
+                            731b47c458fe83a93c9b5c9fe09908e7~2: 6b12a389-3a70-4c7e-a3ba-cdcdeeaca2ad:Models/Weapons/Seirra Sword/Blade
                     b36392aa577b77c7ec87f074bf0cf5e7: !ModelNodeLinkComponent
                         Id: df63ed04-6214-459d-b2ef-0f0a75dfcf28
                         Target: null
@@ -351,7 +342,7 @@ Hierarchy:
                         Children: {}
                     1fb7d1656248fc4eb7c13c9d933979c7: !CameraComponent
                         Id: 54185fb9-ca6b-4c15-bc79-570a042bfe66
-                        Name: null
+                        Name: Camera
                         Projection: Perspective
                         VerticalFieldOfView: 30.0
                         NearClipPlane: 1.5

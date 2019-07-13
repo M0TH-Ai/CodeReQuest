@@ -16,4 +16,6 @@ Bundles: []
 TemplateFolders: []
 RootAssets:
     - 123ba9a3-bb53-4ed1-9278-296857eefa51:Models/Weapons/SyrikPrefab
+    - 1c07e7e8-a7f5-4f93-9497-7d43c811754b:OpenWorld
     - 9b7440ad-8afb-4695-81fa-e6999d6d482c:Models/Weapons/SierraPrefab
+    - a4e4f348-e9fc-4eb9-b7c9-35523586650a:StartScene

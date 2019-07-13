@@ -1,0 +1,7 @@
+!Texture
+Id: b50829ca-7a46-4436-88a2-f9862fec41a4
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Shroud_Roughness.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

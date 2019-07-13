@@ -18,7 +18,7 @@ Hierarchy:
                         Children: {}
                     12f07c17698bf04632929184313006d2: !ModelComponent
                         Id: e2e047d2-b7ca-46bb-be71-e5657ff87634
-                        Model: 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword
+                        Model: 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword/Seirra Sword
                         Materials: {}
                     3751659f381b7a9ad61fd8c026975c68: !RigidbodyComponent
                         Id: 1fcd2c59-e6d0-471a-b5c4-b031658ba488

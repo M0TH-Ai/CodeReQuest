@@ -2,7 +2,7 @@
 Id: 8ab063dc-e02a-4eaf-bccb-a98a37c82794
 SerializedVersion: {Xenko: 2.0.0.0}
 Tags: []
-Source: ../../../../../../Models/Weapons/Syrik Sword/Syrik Sword.FBX
+Source: !file ../../../../../../../Models/Weapons/Syrik Sword/Syrik Sword.FBX
 Skeleton: null
 PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
 Materials:
@@ -16,4 +16,4 @@ Materials:
             Material: null
 Modifiers: {}
 ~SourceHashes:
-    67edc0829c2e2998d20fbb1221e079b1~../../../../../../Models/Weapons/Syrik Sword/Syrik Sword.FBX: 5e8a56deb8f0b37ac2e0d01923e7393a
+    b270d36285931567e73798509381ce39~../../../../../../../Models/Weapons/Syrik Sword/Syrik Sword.FBX: 5e8a56deb8f0b37ac2e0d01923e7393a

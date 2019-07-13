@@ -18,7 +18,7 @@ Hierarchy:
                         Children: {}
                     3442e213d3b73af3986f25d419017744: !ModelComponent
                         Id: 70b12367-c424-4487-b9dc-1767f41daf57
-                        Model: 8ab063dc-e02a-4eaf-bccb-a98a37c82794:Models/Weapons/Syrik Sword
+                        Model: 8ab063dc-e02a-4eaf-bccb-a98a37c82794:Models/Weapons/Seirra Sword/Syrik Sword
                         Materials: {}
                     2ef80229b8c92d703b5b6cc7606c8f46: !ModelNodeLinkComponent
                         Id: c4cab1c4-62fd-46c6-abfe-d86c8068fef0

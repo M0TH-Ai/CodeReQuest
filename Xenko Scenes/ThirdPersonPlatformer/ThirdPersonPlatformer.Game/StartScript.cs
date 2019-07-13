@@ -22,8 +22,8 @@ namespace ThirdPersonPlatformer
             if (Input.PointerEvents.Any(e => e.EventType == PointerEventType.Pressed))
             {
                 // Next scene
-                SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("MainScene"); //test world
-                //SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("OpenWorld");
+                //SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("MainScene"); //test world
+                SceneSystem.SceneInstance.RootScene = Content.Load<Scene>("OpenWorld");
                 Cancel();
             }
         }

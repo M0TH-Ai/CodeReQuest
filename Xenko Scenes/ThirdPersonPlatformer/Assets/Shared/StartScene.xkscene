@@ -38,6 +38,6 @@ Hierarchy:
                         Children: {}
                     0459d22d05ca0470768035031cd26b57: !CameraComponent
                         Id: 525cf4f0-abce-4173-861b-349d8551e72b
-                        Name: null
+                        Name: Camera
                         Projection: Perspective
                         Slot: 9aeac611-d1f6-46da-a235-e20cc154e170

@@ -1,0 +1,7 @@
+!Texture
+Id: d1fc1f0e-b890-4782-a691-ca29036d4ade
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Blade_Height.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

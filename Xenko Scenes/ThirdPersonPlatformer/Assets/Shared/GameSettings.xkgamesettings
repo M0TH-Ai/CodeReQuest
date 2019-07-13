@@ -2,7 +2,7 @@
 Id: e4ef48b8-5ac0-4508-b424-08fb091fde2f
 SerializedVersion: {Xenko: 3.1.0.1}
 Tags: []
-DefaultScene: 13e1605f-4fc9-4e6b-b733-9e862034d38a:MainScene
+DefaultScene: null
 GraphicsCompositor: 2db74294-8b20-4ba0-9db2-60bcb7a1454e:GraphicsCompositor
 Defaults:
     - !Xenko.Graphics.RenderingSettings,Xenko.Graphics

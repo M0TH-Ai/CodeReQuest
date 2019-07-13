@@ -1,0 +1,7 @@
+!Texture
+Id: 0cb60e4a-8124-4853-a863-d83b6c04c3da
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Handle_Roughness.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

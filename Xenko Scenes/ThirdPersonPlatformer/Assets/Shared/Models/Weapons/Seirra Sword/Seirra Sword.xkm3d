@@ -1,0 +1,23 @@
+!Model
+Id: 9fb2e64b-b973-4c38-947d-13da092dd7c2
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ea293192c9df8e752c112d413a9de82a:
+        Name: Handle
+        MaterialInstance:
+            Material: 09efdebf-737e-45a0-adf8-926279c357c8:Models/Weapons/Seirra Sword/Handle
+    02f7aeab9fb05224c701ba7d64759484:
+        Name: Shroud
+        MaterialInstance:
+            Material: 4619ba0a-c14d-42bd-9801-0abb7ec75804:Models/Weapons/Seirra Sword/Shroud
+    f967b10761962641565de7deb8dc38d3:
+        Name: Blade
+        MaterialInstance:
+            Material: 6b12a389-3a70-4c7e-a3ba-cdcdeeaca2ad:Models/Weapons/Seirra Sword/Blade
+Modifiers: {}
+~SourceHashes:
+    1811569a290e36f13e2f8e9a9357bc45~../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword.FBX: e95c7b6ed86808204feb2d6079658e38

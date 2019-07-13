@@ -1,0 +1,7 @@
+!Texture
+Id: 166efd79-8299-4cda-b421-3023b74c83cd
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Handle_Height.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

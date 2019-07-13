@@ -1,0 +1,7 @@
+!Texture
+Id: e80333cc-a624-44c2-9a5a-3195165326ce
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: !file ../../../../../../../Models/Weapons/Seirra Sword/Seirra Sword_Blade_Metallic.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

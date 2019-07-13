@@ -22,9 +22,9 @@ RootAssets:
     - 5a7aef85-9e4e-49d6-9cfc-78e934f5f894:Animations/Seirra/Walking
     - 75cab292-3182-4bcc-ae28-f9a06200db4a:Animations/Seirra/Jumping
     - 8686b541-501b-4241-a513-d1f6d9cf8d79:Prefabs/VoxelPrefab
-    - 8ab063dc-e02a-4eaf-bccb-a98a37c82794:Models/Weapons/Syrik Sword
+    - 8ab063dc-e02a-4eaf-bccb-a98a37c82794:Models/Weapons/Seirra Sword/Syrik Sword
     - 96d07271-1561-4f5f-be18-2432886f397b:Animations/Seirra/Idle
-    - 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword
+    - 9fb2e64b-b973-4c38-947d-13da092dd7c2:Models/Weapons/Seirra Sword/Seirra Sword
     - a7ff76fc-9951-4606-8692-073f5a0bf543:Animations/Seirra/Flip Kick
     - ac2ee6e4-d705-42bc-82ff-0c412ac5304b:cubeArchetype
     - bcec4659-4536-4978-9ca4-e90554530b35:Animations/Seirra/Standing Melee Attack Horizontal
