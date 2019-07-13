@@ -24,7 +24,6 @@ Hierarchy:
                         Children: {}
                     9c485f936fa9e9a00b1b7058bae91e80: !UIComponent
                         Id: 62140bdc-8389-41b8-a38e-7bbde400e4e0
-                        Enabled: false
                         Page: a9f761cf-29e6-4a13-84d6-5e2c1f2544c3:Page_2
                         Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
                         Size: {X: 1.0, Y: 1.0, Z: 1.0}
@@ -33,8 +32,8 @@ Hierarchy:
                         SyrikSword: 123ba9a3-bb53-4ed1-9278-296857eefa51:Models/Weapons/SyrikPrefab
                         SierraSword: 9b7440ad-8afb-4695-81fa-e6999d6d482c:Models/Weapons/SierraPrefab
                         Sierra: ref!! 4a983786-7812-4b89-80a5-717e92ce7e85
-                        player: null
-                        currentWeapon: null
+                        player: ref!! 37059e8f-1681-403b-ad3a-d9d00d9490e2
+                        currentWeapon: ref!! a9f605f6-7fb9-453b-9503-4fc2b258ba34
                         idleSyrik: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
                         runningSyrik: {X: 0.0, Y: 0.0, Z: -1.0, W: -4.371139E-08}
                         idleSierra: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
