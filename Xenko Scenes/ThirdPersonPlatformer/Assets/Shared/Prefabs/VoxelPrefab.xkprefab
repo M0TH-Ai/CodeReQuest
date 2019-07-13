@@ -23,7 +23,6 @@ Hierarchy:
                         IsShadowCaster: false
                         Materials:
                             c3f6a4ee7eae2aa3e449b4fa511c8a2f~0: ca60f0d1-f8e3-4530-9c5a-21c4c2a94931:Models/Environment/Outer Rubix
-                            738879f3cbf12221b74359e29d952c3b~1: 0179c174-b28d-4a05-a3ff-c989d0af46b4:Models/Environment/Inner Rubix
                     ca37d10a11b5d7d43315b2a381d11779: !RigidbodyComponent
                         Id: 260fb599-5b81-435a-82b3-10d3db27b064
                         CollisionGroup: StaticFilter
