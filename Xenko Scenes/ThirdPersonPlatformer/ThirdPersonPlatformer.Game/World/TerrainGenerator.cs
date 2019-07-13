@@ -6,7 +6,7 @@ namespace ThirdPersonPlatformer.World
     internal static class TerrainGenerator
     {
 
-        private const int MaxTerrainHeight = 20;
+        private const int MaxTerrainHeight = 1;
 
         private const int NoiseScale = 20;
 
